@@ -1,0 +1,86 @@
+{
+  "pageTitle": "Core Investing Guides",
+  "pageIntro": "Four essential topics that work together: how interest rates move markets, how to think about risk and return, why diversification matters, and how to build a portfolio that fits your goals. Watch each short video or read the guide below it.",
+  "guides": [
+    {
+      "id": "interest-rates-markets",
+      "title": "How Interest Rates Affect Markets",
+      "category": "Markets",
+      "videoId": "RpXydbuUbtQ",
+      "videoTitle": "How interest rates move stocks, bonds, and currencies",
+      "summary": "Central bank rate decisions ripple through stocks, bonds, housing, and currencies. Understanding the chain of cause and effect helps you read market moves with less noise.",
+      "content": [
+        "Interest rates are one of the most powerful levers in the economy. When a central bank raises or cuts its policy rate, the cost of borrowing changes for banks, businesses, and households. That change does not stay in one place — it spreads into asset prices.",
+        "When rates rise, new bonds become more attractive because they pay higher yields. Existing bonds with lower coupons look less appealing, so their prices often fall. Stocks can come under pressure too: higher rates increase borrowing costs for companies and make future earnings less valuable when discounted back to today. Housing and other rate-sensitive sectors often slow as mortgages become more expensive.",
+        "When rates fall, the opposite tends to happen. Borrowing gets cheaper, bond prices often rise, and investors may move toward stocks and other risk assets in search of return. Currencies also react: higher rates can attract foreign capital and support a currency; lower rates can do the reverse.",
+        "You do not need to predict every central bank meeting. What matters is recognising the direction of policy and how different parts of your portfolio — bonds, growth stocks, property-related assets — usually respond. That context turns headlines into something you can use."
+      ],
+      "takeaways": [
+        "Rising rates often pressure bond prices and rate-sensitive stocks",
+        "Falling rates can support risk assets and existing bonds",
+        "Focus on the direction of policy, not every single announcement"
+      ],
+      "related": ["Understanding Risk and Return", "Building a Good Portfolio"]
+    },
+    {
+      "id": "risk-and-return",
+      "title": "Understanding Risk and Return",
+      "category": "Investing",
+      "videoId": "5JpIz7mYKUw",
+      "videoTitle": "Risk and return explained simply",
+      "summary": "Higher potential returns usually come with higher risk of loss. Clear thinking about that trade-off is the foundation of every investment decision.",
+      "content": [
+        "Risk and return are linked. Assets that can grow quickly — such as individual stocks or concentrated bets — can also fall sharply. Assets that are more stable — such as short-term government bonds or cash — usually offer lower long-term growth. There is no free lunch: extra expected return is compensation for accepting more uncertainty.",
+        "Risk is not only the chance of a permanent loss. It also includes volatility (how much prices swing), liquidity (how easily you can sell), and the risk of not meeting a goal because returns were too low. Your time horizon matters. A 25-year investor can often ride out market swings that would be painful for someone who needs the money in two years.",
+        "A useful habit is to ask: what am I giving up, and what am I taking on? Moving from cash into a broad stock index increases expected long-term return but adds the risk of multi-year drawdowns. Concentrating in one stock or sector can raise upside and downside at the same time.",
+        "Risk tolerance is personal. It depends on your finances, your timeline, and how you react when balances fall. Matching the amount of risk in your portfolio to what you can actually hold through a downturn is more important than chasing the highest possible return on paper."
+      ],
+      "takeaways": [
+        "Higher expected return almost always means higher risk",
+        "Time horizon changes how much volatility you can accept",
+        "The best risk level is one you can stick with in a downturn"
+      ],
+      "related": ["Diversification", "Building a Good Portfolio"]
+    },
+    {
+      "id": "diversification",
+      "title": "Diversification",
+      "category": "Investing",
+      "videoId": "tkaiwEGgmsg",
+      "videoTitle": "Why diversification still matters",
+      "summary": "Spreading money across different investments reduces the damage from any single failure. It is one of the few free advantages available to everyday investors.",
+      "content": [
+        "Diversification means not putting all your money in one stock, one sector, or one country. When assets do not all move in the same direction at the same time, losses in one part of a portfolio can be offset by stability or gains elsewhere. The goal is not to eliminate risk — it is to avoid unnecessary concentration risk.",
+        "A simple example: owning shares in twenty companies across different industries is usually less fragile than owning one company. Owning both stocks and bonds adds another layer, because bonds often behave differently from equities when markets stress. Geographic diversification (home market plus international) reduces dependence on a single economy.",
+        "Diversification has limits. In a severe crash, many assets can fall together for a while. It also does not guarantee profit. What it does is improve the reliability of outcomes over long periods by reducing the chance that one bad decision or one bad company wipes out years of progress.",
+        "You can diversify with individual securities, but low-cost index funds and ETFs make it practical with small amounts of money. A global stock index plus a bond index already provides broad exposure that most single-stock portfolios never reach. Rebalancing occasionally keeps the mix from drifting too far from your plan."
+      ],
+      "takeaways": [
+        "Diversification reduces concentration risk, not all risk",
+        "Mix asset types and regions, not only more of the same",
+        "Index funds are an efficient way to diversify with little capital"
+      ],
+      "related": ["Understanding Risk and Return", "Building a Good Portfolio"]
+    },
+    {
+      "id": "building-a-portfolio",
+      "title": "Building a Good Portfolio",
+      "category": "Investing",
+      "videoId": "8OHm4ZAEDJY",
+      "videoTitle": "How to build a simple, durable portfolio",
+      "summary": "A good portfolio matches your goals, time horizon, and risk tolerance — then stays diversified and low-cost enough that you can maintain it for years.",
+      "content": [
+        "A portfolio is simply the collection of assets you own. A good one is not the one with the highest recent return. It is the one that fits your purpose: retirement in 30 years, a house deposit in five, or long-term wealth building with money you will not need soon.",
+        "Start with allocation — how much in stocks, bonds, and cash — before picking products. Stocks drive long-term growth; bonds and cash dampen swings and provide dry powder. A common starting point for a long horizon is a majority in diversified equities, with a smaller share in bonds. Shorter horizons usually need more stability and less equity risk.",
+        "Prefer broad, low-cost funds over a long list of individual stocks unless you have a clear reason and the time to monitor them. Keep costs low: expense ratios and unnecessary trading quietly compound against you. Automate contributions if you can (dollar-cost averaging), and rebalance when allocations drift significantly from your targets.",
+        "Finally, write down the rules. What is this money for? When will you need it? How much of a drop can you tolerate without selling? A simple written plan makes it easier to ignore noise and stick with the portfolio through the periods when markets test your patience — which they always do."
+      ],
+      "takeaways": [
+        "Goals and time horizon drive allocation before product choice",
+        "Broad, low-cost funds beat complexity for most people",
+        "A written plan helps you stay invested through volatility"
+      ],
+      "related": ["Diversification", "Understanding Risk and Return", "How Interest Rates Affect Markets"]
+    }
+  ]
+}

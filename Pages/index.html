@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiet Wealthx — Understand Money. Build Quiet Wealth.</title>
+  <meta name="description" content="Clear, practical financial education. Learn investing, personal finance, and markets without the noise.">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="../styles/hero.css">
+  <link rel="stylesheet" href="../styles/ticker.css">
+  <link rel="stylesheet" href="../styles/news.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../pages/index.html" class="logo">Quiet <span>Wealth</span></a>
+      
+      <button class="menu-toggle" aria-label="Toggle menu" id="menuToggle">☰</button>
+      
+      <nav class="main-nav" id="mainNav">
+        <a href="../pages/index.html" class="active">Home</a>
+        <a href="../pages/investing.html">Investing</a>
+        <a href="../pages/personal-finance.html">Personal Finance</a>
+        <a href="../pages/markets.html">Markets</a>
+        <a href="../pages/guides.html">Guides</a>
+        <a href="../pages/glossary.html">Glossary</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="hero-eyebrow">Free financial education</span>
+        <h1>Understand Money.<br><span class="hero-accent">Build Quiet Wealth.</span></h1>
+        <p class="hero-lead">Plain-English guides on investing, personal finance and markets, for people who want clarity instead of hype.</p>
+
+        <div class="hero-actions">
+          <a href="../pages/guides.html" class="btn btn-primary">Start Learning</a>
+          <a href="../pages/glossary.html" class="btn btn-white-outline">Browse Glossary</a>
+        </div>
+
+        <div class="hero-paths">
+          <span class="hero-paths-label">Where are you starting?</span>
+          <a href="../pages/investing.html" class="hero-chip">I’m new to investing</a>
+          <a href="../pages/personal-finance.html" class="hero-chip">Help me budget</a>
+          <a href="../pages/markets.html" class="hero-chip">How do markets work?</a>
+        </div>
+
+        <ul class="hero-trust">
+          <li>Free to read</li>
+          <li>No jargon</li>
+          <li>Education, not advice</li>
+        </ul>
+      </div>
+
+      <figure class="hero-card" role="img" aria-label="Line chart showing $10,000 growing to about $76,000 over 30 years at 7 percent a year">
+        <figcaption class="hero-card-head">
+          <span class="hero-card-kicker">The power of compounding</span>
+          <span class="hero-card-stat">$76,123</span>
+          <span class="hero-card-sub">from $10,000 at 7% a year, left alone for 30 years</span>
+        </figcaption>
+        <svg viewBox="0 0 360 200" class="hero-chart" focusable="false" aria-hidden="true">
+          <defs>
+            <linearGradient id="heroArea" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" class="hero-stop-top"/>
+              <stop offset="1" class="hero-stop-bottom"/>
+            </linearGradient>
+          </defs>
+          <line x1="24" y1="168" x2="336" y2="168" class="hero-chart-axis"/>
+          <path d="M24.0,168.0 L76.0,159.8 L128.0,148.4 L180.0,132.4 L232.0,109.8 L284.0,78.3 L336.0,34.0 L336,168 L24,168 Z" fill="url(#heroArea)"/>
+          <path d="M24.0,168.0 L76.0,159.8 L128.0,148.4 L180.0,132.4 L232.0,109.8 L284.0,78.3 L336.0,34.0" class="hero-chart-line" pathLength="1"/>
+          <circle cx="336.0" cy="34.0" r="5" class="hero-chart-dot"/>
+          <text x="24" y="190" class="hero-chart-label">Year 0</text>
+          <text x="180" y="190" text-anchor="middle" class="hero-chart-label">Year 15</text>
+          <text x="336" y="190" text-anchor="end" class="hero-chart-label">Year 30</text>
+        </svg>
+        <p class="hero-card-note">Illustrative example only. Not a forecast or a promise of returns.</p>
+      </figure>
+    </div>
+  </section>
+
+  <!-- STOCK TICKER -->
+  <section class="ticker" id="stockTicker" aria-label="Market snapshot">
+    <div class="ticker-label">
+      <span class="ticker-dot" aria-hidden="true"></span>
+      <span class="ticker-label-text">Markets</span>
+    </div>
+    <div class="ticker-viewport">
+      <div class="ticker-track" id="tickerTrack"></div>
+    </div>
+    <div class="ticker-controls">
+      <span class="ticker-note">Prices may be delayed · For information only</span>
+      <button type="button" class="ticker-pause" id="tickerPause" aria-label="Pause ticker">❚❚</button>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="section">
+    <div class="container">
+      <div class="categories">
+        <a href="../pages/investing.html" class="cat-pill active">Investing</a>
+        <a href="../pages/personal-finance.html" class="cat-pill">Personal Finance</a>
+        <a href="../pages/markets.html" class="cat-pill">Markets</a>
+        <a href="../pages/guides.html" class="cat-pill">Guides</a>
+        <a href="../pages/glossary.html" class="cat-pill">Glossary</a>
+        <a href="../pages/news.html" class="cat-pill">Market News</a>
+      </div>
+
+      <!-- FEATURED GUIDES -->
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Featured Guides</h2>
+          <p class="section-subtitle">Start with these essential topics</p>
+        </div>
+        <a href="../pages/guides.html" class="view-all">View all guides →</a>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card">
+          <span class="card-tag">Investing</span>
+          <h3>What is Compound Interest?</h3>
+          <p>The most powerful force in wealth building explained simply, with real examples and calculations anyone can follow.</p>
+          <a href="../pages/article.html" class="card-link">Read guide →</a>
+        </article>
+
+        <article class="card">
+          <span class="card-tag">Personal Finance</span>
+          <h3>How to Build an Emergency Fund</h3>
+          <p>A practical step-by-step plan to create financial security without feeling restricted or overwhelmed.</p>
+          <a href="../pages/article.html" class="card-link">Read guide →</a>
+        </article>
+
+        <article class="card">
+          <span class="card-tag">Markets</span>
+          <h3>Stock Market Basics for Beginners</h3>
+          <p>From shares and indices to bull and bear markets — everything you need to understand how markets work.</p>
+          <a href="../pages/article.html" class="card-link">Read guide →</a>
+        </article>
+
+        <article class="card">
+          <span class="card-tag">Investing</span>
+          <h3>Index Funds vs Individual Stocks</h3>
+          <p>A clear comparison to help you decide which approach fits your goals, risk tolerance, and time.</p>
+          <a href="../pages/article.html" class="card-link">Read guide →</a>
+        </article>
+
+        <article class="card">
+          <span class="card-tag">Personal Finance</span>
+          <h3>The 50/30/20 Budget Rule Explained</h3>
+          <p>A simple framework for managing your money that actually works in real life.</p>
+          <a href="../pages/article.html" class="card-link">Read guide →</a>
+        </article>
+
+        <article class="card">
+          <span class="card-tag">Guides</span>
+          <h3>How to Start Investing with Little Money</h3>
+          <p>You don’t need thousands to begin. Here’s a realistic path for getting started with small amounts.</p>
+          <a href="../pages/article.html" class="card-link">Read guide →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- AD SLOT -->
+  <div class="container">
+    <div class="ad-slot">
+      <!-- Google AdSense slot will go here -->
+      Advertisement
+    </div>
+  </div>
+
+  <!-- MARKET NEWS -->
+  <section class="section" id="news" style="background: #F3F0F8; padding-top: 3rem; padding-bottom: 3.5rem;">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Market News</h2>
+          <p class="section-subtitle">Latest headlines from trusted sources</p>
+        </div>
+      </div>
+
+      <div class="news-list" id="newsFeed" aria-live="polite" aria-busy="true">
+        <!-- Replaced automatically by news.js once headlines load -->
+        <article class="news-item skeleton" aria-hidden="true">
+          <div class="news-media"></div>
+          <div class="news-body">
+            <span class="sk-line sk-short"></span>
+            <span class="sk-line"></span>
+            <span class="sk-line"></span>
+            <span class="sk-line sk-mid"></span>
+          </div>
+        </article>
+        <article class="news-item skeleton" aria-hidden="true">
+          <div class="news-media"></div>
+          <div class="news-body">
+            <span class="sk-line sk-short"></span>
+            <span class="sk-line"></span>
+            <span class="sk-line"></span>
+            <span class="sk-line sk-mid"></span>
+          </div>
+        </article>
+        <article class="news-item skeleton" aria-hidden="true">
+          <div class="news-media"></div>
+          <div class="news-body">
+            <span class="sk-line sk-short"></span>
+            <span class="sk-line"></span>
+            <span class="sk-line"></span>
+            <span class="sk-line sk-mid"></span>
+          </div>
+        </article>
+        <article class="news-item skeleton" aria-hidden="true">
+          <div class="news-media"></div>
+          <div class="news-body">
+            <span class="sk-line sk-short"></span>
+            <span class="sk-line"></span>
+            <span class="sk-line"></span>
+            <span class="sk-line sk-mid"></span>
+          </div>
+        </article>
+      </div>
+
+      <noscript>
+        <p class="news-note">Please enable JavaScript to see the latest market headlines.</p>
+      </noscript>
+
+      <p class="news-note">
+        Headlines are provided by <a href="https://finnhub.io" target="_blank" rel="noopener noreferrer">Finnhub</a> and refresh every few minutes. Full articles remain on the original publishers’ sites.
+      </p>
+    </div>
+  </section>
+
+  <!-- POPULAR TERMS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Popular Terms</h2>
+          <p class="section-subtitle">Quick definitions from the glossary</p>
+        </div>
+        <a href="../pages/glossary.html" class="view-all">Full glossary →</a>
+      </div>
+
+      <div class="glossary-grid" id="popularTerms" aria-live="polite">
+        <!-- Populated from glossary.json -->
+        <div class="glossary-item skeleton-term" aria-hidden="true"><h3>&nbsp;</h3><p>&nbsp;</p></div>
+        <div class="glossary-item skeleton-term" aria-hidden="true"><h3>&nbsp;</h3><p>&nbsp;</p></div>
+        <div class="glossary-item skeleton-term" aria-hidden="true"><h3>&nbsp;</h3><p>&nbsp;</p></div>
+        <div class="glossary-item skeleton-term" aria-hidden="true"><h3>&nbsp;</h3><p>&nbsp;</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">Quiet <span>Wealth</span></div>
+          <p>Clear financial education for people who want to understand money and build lasting wealth — without the noise.</p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Learn</h5>
+          <ul>
+            <li><a href="../pages/investing.html">Investing</a></li>
+            <li><a href="../pages/personal-finance.html">Personal Finance</a></li>
+            <li><a href="../pages/markets.html">Markets</a></li>
+            <li><a href="../pages/guides.html">Guides</a></li>
+            <li><a href="../pages/glossary.html">Glossary</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="../pages/about.html">About</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+            <li><a href="../pages/privacy.html">Privacy Policy</a></li>
+            <li><a href="../pages/terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <ul>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Quiet Wealthx. All rights reserved.</div>
+        <div>Educational content only. Not financial advice.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script>window.QW_CONFIG = { API_BASE: 'http://localhost:3000' }; // change when you deploy</script>
+  <script src="../js/ticker.js" defer></script>
+  <script src="../js/news.js" defer></script>
+  <script>
+  (function () {
+    const MAX_CHARS = 120;
+    const MAX_ITEMS = 4;
+    const container = document.getElementById('popularTerms');
+    if (!container) return;
+
+    function truncate(text, max) {
+      if (!text) return '';
+      const clean = String(text).replace(/\s+/g, ' ').trim();
+      if (clean.length <= max) return clean;
+      const cut = clean.slice(0, max);
+      const lastSpace = cut.lastIndexOf(' ');
+      return (lastSpace > 40 ? cut.slice(0, lastSpace) : cut).trim() + '…';
+    }
+
+    function shuffle(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const tmp = a[i];
+        a[i] = a[j];
+        a[j] = tmp;
+      }
+      return a;
+    }
+
+    function pickTerms(list) {
+      // Random selection each page load so the section feels dynamic
+      return shuffle(list).slice(0, MAX_ITEMS);
+    }
+
+    function render(terms) {
+      if (!terms.length) {
+        container.innerHTML = '<p class="news-note">Glossary terms could not be loaded.</p>';
+        return;
+      }
+      container.innerHTML = terms.map((t) => {
+        const name = t.term || t.fullName || 'Term';
+        const def = truncate(t.definition, MAX_CHARS);
+        const href = 'glossary.html#' + encodeURIComponent(name);
+        return (
+          '<a class="glossary-item" href="' + href + '">' +
+            '<h3>' + name.replace(/</g, '&lt;') + '</h3>' +
+            '<p>' + def.replace(/</g, '&lt;') + '</p>' +
+          '</a>'
+        );
+      }).join('');
+    }
+
+    fetch('../json/glossary.json')
+      .then((res) => {
+        if (!res.ok) throw new Error('Failed to load glossary');
+        return res.json();
+      })
+      .then((data) => {
+        const list = Array.isArray(data) ? data : [];
+        render(pickTerms(list));
+      })
+      .catch(() => {
+        container.innerHTML = '<p class="news-note">Unable to load popular terms right now.</p>';
+      });
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Core Investing Guides — Quiet Wealth</title>
+  <meta name="description" content="Clear guides on interest rates, risk and return, diversification, and building a portfolio. Watch short videos or read practical articles.">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <style>
+    /* Guides page layout — works with or without full styles.css */
+    .guides-layout {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      align-items: start;
+    }
+    @media (min-width: 960px) {
+      .guides-layout {
+        grid-template-columns: minmax(0, 1fr) 300px;
+        gap: 2.5rem;
+      }
+    }
+
+    .guides-intro {
+      margin-bottom: 2rem;
+    }
+    .guides-intro h1 {
+      font-size: clamp(1.75rem, 3vw, 2.15rem);
+      line-height: 1.2;
+      margin: 0 0 0.75rem;
+      color: #1a1523;
+    }
+    .guides-intro p {
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: #4a4458;
+      max-width: 42rem;
+      margin: 0;
+    }
+
+    .guide-block {
+      padding: 1.75rem 0 2rem;
+      border-bottom: 1px solid #e8e4ef;
+    }
+    .guide-block:last-of-type {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .guide-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 0.6rem;
+    }
+    .guide-category {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #5b4a7a;
+      background: #f3f0f8;
+      padding: 0.25rem 0.55rem;
+      border-radius: 999px;
+    }
+    .guide-block h2 {
+      font-size: clamp(1.25rem, 2.2vw, 1.5rem);
+      line-height: 1.3;
+      margin: 0 0 0.75rem;
+      color: #1a1523;
+    }
+    .guide-summary {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #4a4458;
+      margin: 0 0 1.25rem;
+    }
+
+    .video-wrap {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 12px;
+      background: #1a1523;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 4px 20px -6px rgba(26, 21, 35, 0.18);
+    }
+    .video-wrap iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .video-placeholder {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      color: #c4bdd4;
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 1rem;
+    }
+    .video-placeholder strong {
+      color: #efeaf8;
+      font-size: 1rem;
+    }
+
+    .guide-body p {
+      font-size: 0.98rem;
+      line-height: 1.7;
+      color: #2e2938;
+      margin: 0 0 1rem;
+    }
+    .guide-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    .takeaways {
+      margin: 1.25rem 0 0;
+      padding: 1rem 1.15rem;
+      background: #f8f6fb;
+      border-radius: 10px;
+      border-left: 3px solid #7c6b9e;
+    }
+    .takeaways h3 {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #5b4a7a;
+      margin: 0 0 0.6rem;
+    }
+    .takeaways ul {
+      margin: 0;
+      padding-left: 1.1rem;
+    }
+    .takeaways li {
+      font-size: 0.92rem;
+      line-height: 1.5;
+      color: #2e2938;
+      margin-bottom: 0.35rem;
+    }
+    .takeaways li:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Sidebar */
+    .guides-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+    @media (min-width: 960px) {
+      .guides-sidebar {
+        position: sticky;
+        top: 5.5rem;
+      }
+    }
+
+    .sidebar-card {
+      background: #fff;
+      border: 1px solid #e8e4ef;
+      border-radius: 12px;
+      padding: 1.15rem 1.2rem;
+    }
+    .sidebar-card h3 {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #6b6280;
+      margin: 0 0 0.85rem;
+    }
+    .sidebar-card ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .sidebar-card li {
+      margin: 0;
+    }
+    .sidebar-card a {
+      display: block;
+      padding: 0.4rem 0;
+      font-size: 0.92rem;
+      color: #3d3550;
+      text-decoration: none;
+      border-bottom: 1px solid #f0ecf5;
+      transition: color 0.15s ease;
+    }
+    .sidebar-card li:last-child a {
+      border-bottom: none;
+    }
+    .sidebar-card a:hover {
+      color: #5b4a7a;
+    }
+
+    .ad-placeholder {
+      background: #f3f0f8;
+      border: 1px dashed #cfc6dd;
+      border-radius: 12px;
+      min-height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #8a8299;
+      font-size: 0.8rem;
+      letter-spacing: 0.02em;
+    }
+    .ad-placeholder.tall {
+      min-height: 250px;
+    }
+
+    .guides-loading {
+      padding: 2rem 0;
+      color: #6b6280;
+      font-size: 0.95rem;
+    }
+
+    /* Anchor offset for sticky header */
+    .guide-block {
+      scroll-margin-top: 5.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../page/index.html" class="logo">Quiet <span>Wealth</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu" id="menuToggle">☰</button>
+      <nav class="main-nav" id="mainNav">
+        <a href="../pages/index.html">Home</a>
+        <a href="../pages/investing.html">Investing</a>
+        <a href="../pages/personal-finance.html">Personal Finance</a>
+        <a href="../pages/markets.html">Markets</a>
+        <a href="../pages/guides.html" class="active">Guides</a>
+        <a href="../pages/glossary.html">Glossary</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="guides-layout">
+
+        <!-- LEFT: main content -->
+        <div class="guides-main" id="guidesMain">
+          <div class="guides-intro" id="guidesIntro">
+            <h1>Core Investing Guides</h1>
+            <p class="guides-loading">Loading guides…</p>
+          </div>
+          <div id="guidesContent"></div>
+        </div>
+
+        <!-- RIGHT: interlinks + ads -->
+        <aside class="guides-sidebar" aria-label="Page sidebar">
+          <div class="ad-placeholder" role="complementary" aria-label="Advertisement">
+            Advertisement
+          </div>
+
+          <div class="sidebar-card">
+            <h3>On this page</h3>
+            <ul id="onThisPage">
+              <li><a href="#interest-rates-markets">How Interest Rates Affect Markets</a></li>
+              <li><a href="#risk-and-return">Understanding Risk and Return</a></li>
+              <li><a href="#diversification">Diversification</a></li>
+              <li><a href="#building-a-portfolio">Building a Good Portfolio</a></li>
+            </ul>
+          </div>
+
+          <div class="sidebar-card">
+            <h3>Explore more</h3>
+            <ul>
+              <li><a href="../pages/investing.html">Investing basics</a></li>
+              <li><a href="../pages/personal-finance.html">Personal finance</a></li>
+              <li><a href="../pages/markets.html">Markets explained</a></li>
+              <li><a href="../pages/glossary.html">Glossary of terms</a></li>
+              <li><a href="../pages/index.html">Home</a></li>
+            </ul>
+          </div>
+
+          <div class="ad-placeholder tall" role="complementary" aria-label="Advertisement">
+            Advertisement
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">Quiet <span>Wealth</span></div>
+          <p>Clear financial education for people who want to understand money and build lasting wealth — without the noise.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Learn</h5>
+          <ul>
+            <li><a href="../pages/investing.html">Investing</a></li>
+            <li><a href="../pages/personal-finance.html">Personal Finance</a></li>
+            <li><a href="../pages/markets.html">Markets</a></li>
+            <li><a href="../pages/guides.html">Guides</a></li>
+            <li><a href="../pages/glossary.html">Glossary</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="../pages/about.html">About</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+            <li><a href="../pages/privacy.html">Privacy Policy</a></li>
+            <li><a href="../pages/terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <ul>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 Quiet Wealth. All rights reserved.</div>
+        <div>Educational content only. Not financial advice.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script>
+  (function () {
+    const mainIntro = document.getElementById('guidesIntro');
+    const contentEl = document.getElementById('guidesContent');
+    const onThisPage = document.getElementById('onThisPage');
+
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function videoBlock(guide) {
+      if (guide.videoId) {
+        return (
+          '<div class="video-wrap">' +
+            '<iframe ' +
+              'src="https://www.youtube.com/embed/' + encodeURIComponent(guide.videoId) + '" ' +
+              'title="' + escapeHtml(guide.videoTitle || guide.title) + '" ' +
+              'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ' +
+              'allowfullscreen ' +
+              'loading="lazy"' +
+            '></iframe>' +
+          '</div>'
+        );
+      }
+      return (
+        '<div class="video-wrap">' +
+          '<div class="video-placeholder">' +
+            '<strong>' + escapeHtml(guide.videoTitle || 'Video') + '</strong>' +
+            '<span>YouTube video coming soon</span>' +
+          '</div>' +
+        '</div>'
+      );
+    }
+
+    function renderGuide(guide) {
+      const paragraphs = (guide.content || [])
+        .map(function (p) { return '<p>' + escapeHtml(p) + '</p>'; })
+        .join('');
+
+      const takeaways = (guide.takeaways && guide.takeaways.length)
+        ? (
+            '<div class="takeaways">' +
+              '<h3>Key takeaways</h3>' +
+              '<ul>' +
+                guide.takeaways.map(function (t) {
+                  return '<li>' + escapeHtml(t) + '</li>';
+                }).join('') +
+              '</ul>' +
+            '</div>'
+          )
+        : '';
+
+      return (
+        '<article class="guide-block" id="' + escapeHtml(guide.id) + '">' +
+          '<div class="guide-meta">' +
+            '<span class="guide-category">' + escapeHtml(guide.category || 'Guide') + '</span>' +
+          '</div>' +
+          '<h2>' + escapeHtml(guide.title) + '</h2>' +
+          '<p class="guide-summary">' + escapeHtml(guide.summary || '') + '</p>' +
+          videoBlock(guide) +
+          '<div class="guide-body">' + paragraphs + '</div>' +
+          takeaways +
+        '</article>'
+      );
+    }
+
+    function renderPage(data) {
+      const guides = data.guides || [];
+
+      mainIntro.innerHTML =
+        '<h1>' + escapeHtml(data.pageTitle || 'Guides') + '</h1>' +
+        '<p>' + escapeHtml(data.pageIntro || '') + '</p>';
+
+      if (!guides.length) {
+        contentEl.innerHTML = '<p class="guides-loading">No guides available yet.</p>';
+        return;
+      }
+
+      contentEl.innerHTML = guides.map(renderGuide).join('');
+
+      // Refresh "On this page" from JSON so it stays in sync
+      if (onThisPage) {
+        onThisPage.innerHTML = guides.map(function (g) {
+          return '<li><a href="#' + encodeURIComponent(g.id) + '">' + escapeHtml(g.title) + '</a></li>';
+        }).join('');
+      }
+    }
+
+    fetch('../json/guides.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error('Failed to load guides');
+        return res.json();
+      })
+      .then(renderPage)
+      .catch(function () {
+        mainIntro.innerHTML = '<h1>Core Investing Guides</h1><p>Unable to load guides right now. Please try again later.</p>';
+        contentEl.innerHTML = '';
+      });
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,209 @@
+/* ==========================================================
+   MARKET NEWS: scoped styles
+   Load AFTER styles.css so these rules take precedence.
+   Everything is scoped under #news so nothing else is affected.
+   ========================================================== */
+
+#news {
+  --news-accent: var(--primary, #5b3fa0);
+  --news-text: var(--text, #1f1b2e);
+  --news-muted: var(--text-muted, #6b6880);
+  --news-border: rgba(91, 63, 160, 0.12);
+}
+
+/* ---------- Grid: 1 column on phones, 2 from tablets up ---------- */
+#news .news-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 700px) {
+  #news .news-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+}
+
+/* ---------- Card ---------- */
+#news .news-list .news-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  background: #fff;
+  border: 1px solid var(--news-border);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(30, 20, 60, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+@media (hover: hover) {
+  #news .news-list .news-item:not(.skeleton):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(30, 20, 60, 0.1);
+  }
+  #news .news-item:hover .news-thumb {
+    transform: scale(1.04);
+  }
+}
+
+/* ---------- Image area (16:9, with graceful placeholder) ---------- */
+#news .news-media {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ebe5f7, #d9cff1);
+}
+
+#news .news-thumb {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+#news .news-placeholder {
+  display: none;
+  position: absolute;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.75rem;
+  font-weight: 700;
+  color: rgba(91, 63, 160, 0.4);
+}
+
+#news .news-media.no-image .news-thumb { display: none; }
+#news .news-media.no-image .news-placeholder { display: flex; }
+
+/* ---------- Text ---------- */
+#news .news-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+  padding: 1.1rem 1.25rem 1.25rem;
+}
+
+#news .news-body .news-source {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--news-accent);
+}
+
+#news .news-body h4 {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#news .news-body h4 a {
+  color: var(--news-text);
+  text-decoration: none;
+}
+
+#news .news-body h4 a:hover,
+#news .news-body h4 a:focus-visible {
+  color: var(--news-accent);
+  text-decoration: underline;
+}
+
+#news .news-body p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--news-muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#news .news-body .news-meta {
+  margin-top: auto;
+  padding-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--news-muted);
+}
+
+/* ---------- In-feed ads span the full row ---------- */
+#news .ad-slot-wrapper {
+  grid-column: 1 / -1;
+  margin: 0.25rem 0;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* ---------- Footnote ---------- */
+#news .news-note {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--news-muted);
+}
+
+#news .news-note a { color: var(--news-accent); }
+
+/* ---------- Loading skeleton ---------- */
+#news .skeleton .news-media,
+#news .skeleton .sk-line {
+  background: linear-gradient(90deg, #ebe5f7 25%, #f6f3fc 50%, #ebe5f7 75%);
+  background-size: 200% 100%;
+  animation: news-shimmer 1.4s ease-in-out infinite;
+}
+
+#news .skeleton .sk-line {
+  display: block;
+  height: 0.85rem;
+  border-radius: 6px;
+}
+
+#news .skeleton .sk-short { width: 30%; }
+#news .skeleton .sk-mid { width: 60%; }
+
+@keyframes news-shimmer {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+
+/* ---------- Error state ---------- */
+#news .news-error {
+  grid-column: 1 / -1;
+  padding: 1.5rem;
+  text-align: center;
+  background: #fff;
+  border: 1px solid var(--news-border);
+  border-radius: 14px;
+  color: var(--news-muted);
+}
+
+#news .news-error button {
+  margin-top: 0.75rem;
+  padding: 0.55rem 1.1rem;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: var(--news-accent);
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+/* ---------- Respect reduced-motion preferences ---------- */
+@media (prefers-reduced-motion: reduce) {
+  #news .news-item,
+  #news .news-thumb { transition: none; }
+  #news .skeleton .news-media,
+  #news .skeleton .sk-line { animation: none; }
+}

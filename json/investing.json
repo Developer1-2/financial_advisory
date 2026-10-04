@@ -1,0 +1,612 @@
+{
+  "slug": "investing",
+  "nav": "investing",
+  "siteUrl": "",
+  "title": "Investing: A Plain-English Guide to Growing Your Money",
+  "metaTitle": "Investing for Beginners: A Plain-English Guide — Quiet Wealth",
+  "metaDescription": "Learn what investing is, the main types of investments, why and when to invest, and how experienced investors manage risk. With notes for Uganda.",
+  "tag": "Investing guide",
+  "lead": "Investing means putting your money to work so it can grow over time instead of sitting still. This guide explains what investing is, the main types of investment, why and when to start, and what experienced investors do to protect their money. It is written for anyone, with practical notes for readers in Uganda.",
+  "author": {
+    "name": "",
+    "title": "",
+    "bio": ""
+  },
+  "published": "2026-10-03",
+  "updated": "2026-10-03",
+  "sections": [
+    {
+      "id": "what-is-investing",
+      "title": "What is investing?",
+      "short": "Putting money to work to grow over time, accepting some risk for a higher potential reward.",
+      "answer": "Investing means putting money into something, such as shares, bonds, property or a business, with the aim of earning more over time. Unlike saving, investing accepts some risk in return for the chance of a higher reward.",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "When you save, you keep money safe and easy to reach, usually in a bank account or mobile wallet. When you invest, you give your money a job: you lend it to a government or company (bonds), own a small piece of a business (shares), or buy something that can earn rent or rise in value (property). In exchange, you accept that the value can go down as well as up."
+        },
+        {
+          "type": "h3",
+          "text": "How investments make money"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Income:** interest from bonds and deposits, {{glossary:Dividend|dividends}} from shares, or rent from property.",
+            "**Growth:** the price of what you own rises, so you can sell it for more than you paid. That profit is a {{glossary:Capital Gain|capital gain}}.",
+            "**Compounding:** you reinvest what you earn, so your earnings start earning too. This is {{glossary:Compound Interest|compound interest}} at work."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Saving, investing and speculating"
+        },
+        {
+          "type": "p",
+          "text": "These three are often confused, but they have different goals and different levels of risk."
+        },
+        {
+          "type": "table",
+          "caption": "Saving, investing and speculating compared",
+          "headers": [
+            "",
+            "Saving",
+            "Investing",
+            "Speculating"
+          ],
+          "rows": [
+            [
+              "Main goal",
+              "Safety and easy access",
+              "Grow wealth over years",
+              "Profit from short-term price moves"
+            ],
+            [
+              "Risk",
+              "Low",
+              "Low to high, depending on the choice",
+              "Very high"
+            ],
+            [
+              "Usual time frame",
+              "Days to a few years",
+              "Several years or more",
+              "Minutes to months"
+            ],
+            [
+              "Examples",
+              "Bank savings, mobile wallet",
+              "Government bonds, funds, shares held long term",
+              "Short-term trading in crypto or foreign exchange"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Idle money also has a hidden cost. Prices tend to rise over time ({{glossary:Inflation}}), so if your money earns less than inflation, it buys a little less each year even though the number in your account looks the same. Investing aims to earn more than inflation over the long run."
+        },
+        {
+          "type": "note",
+          "title": "A simple example of growth",
+          "text": "Suppose you invest UGX 1,000,000 and earn 10% a year, with the earnings reinvested. After 10 years you would have about UGX 2.59 million, after 20 years about UGX 6.73 million, and after 30 years about UGX 17.45 million. These figures are illustrative only. Real returns vary from year to year, are never guaranteed, and fees and tax would reduce them. The maths works the same in any currency.",
+          "variant": "example"
+        }
+      ],
+      "takeaways": [
+        "Investing is putting money to work so it can grow; saving is keeping it safe and within reach.",
+        "Investments earn through income, price growth and compounding.",
+        "Higher potential returns come with higher risk, including the risk of losing money.",
+        "Saving, investing and speculating are different activities. Know which one you are doing."
+      ],
+      "inUganda": {
+        "title": "In Uganda",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Many people already invest without calling it that: land, rental property, a farm or small business, a SACCO, or NSSF contributions at work. The same questions apply to each one. How does it earn? What does it cost? How risky is it? How quickly can you get your money out?"
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "q": "Is investing the same as saving?",
+          "a": "No. Saving puts safety and quick access first. Investing accepts some risk in exchange for higher potential growth over a longer time."
+        },
+        {
+          "q": "How much money do I need to start investing?",
+          "a": "Less than most people think. Some options, such as government securities and unit trusts, accept modest amounts, so check the minimum with your bank or fund manager. What matters more than the amount is starting with money you will not need soon."
+        },
+        {
+          "q": "Can I lose money by investing?",
+          "a": "Yes. Prices can fall, companies can fail and some schemes turn out to be fraud. No genuine investment can guarantee a profit. Spreading your money out, investing for the long term and using regulated providers lowers the risk but does not remove it."
+        }
+      ],
+      "terms": [
+        "Compound Interest",
+        "Inflation",
+        "Dividend",
+        "Capital Gain",
+        "Portfolio"
+      ]
+    },
+    {
+      "id": "investment-types",
+      "title": "Types of investments",
+      "short": "Cash, bonds, shares, funds, property and higher-risk assets. Each trades off return, risk and access to your money.",
+      "answer": "The main types of investment are cash and deposits, bonds, shares, funds, property and land, and higher-risk assets such as crypto. They differ in how much they can earn, how risky they are, and how quickly you can turn them back into cash.",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No single type is best for everyone. Most people hold a mix, which is the idea behind {{glossary:Asset Allocation}}. This table gives a plain comparison."
+        },
+        {
+          "type": "table",
+          "caption": "The main types of investment compared (general guide)",
+          "headers": [
+            "Type",
+            "How it earns",
+            "Risk",
+            "Access to your money",
+            "Often suits"
+          ],
+          "rows": [
+            [
+              "Cash and fixed deposits",
+              "Interest",
+              "Low",
+              "Quick; deposits may have notice periods or penalties",
+              "Emergency money and short-term goals"
+            ],
+            [
+              "{{glossary:Bond|Bonds}}, including government securities",
+              "Interest for lending your money",
+              "Low to moderate",
+              "Fixed term; can often be sold early on a secondary market",
+              "Steady income and protecting capital"
+            ],
+            [
+              "Shares ({{glossary:Stock|stocks}})",
+              "Price growth and dividends",
+              "High, with big short-term swings",
+              "Can be sold when the market is open, but small markets can be slow",
+              "Long-term growth, ideally 5+ years"
+            ],
+            [
+              "Funds ({{glossary:Mutual Fund|mutual funds}}, {{glossary:ETF|ETFs}}, unit trusts)",
+              "A pooled mix of assets",
+              "Depends on what the fund holds",
+              "Usually sold back to the fund within days",
+              "Beginners and spreading risk"
+            ],
+            [
+              "Property and land",
+              "Rent and rising value",
+              "Moderate to high",
+              "Slow and costly to sell",
+              "Long-term wealth, if you can manage the paperwork"
+            ],
+            [
+              "Your own business or farm",
+              "Profit",
+              "High",
+              "Depends on the business",
+              "People who understand the work"
+            ],
+            [
+              "Crypto, foreign exchange, derivatives",
+              "Short-term price moves",
+              "Very high",
+              "Varies",
+              "Only money you can afford to lose"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "How to choose: start with when you need the money"
+        },
+        {
+          "type": "p",
+          "text": "As a general rule, the sooner you need the money, the less risk you should take with it."
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Needed within 1 to 2 years:** keep it in cash, deposits or very short-term government securities.",
+            "**Needed in 3 to 5 years:** lean towards bonds and funds that hold them.",
+            "**Needed in 10 or more years:** shares and diversified funds can play a bigger role, because there is more time to recover from downturns."
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Watch out for promises",
+          "text": "Guaranteed high returns, pressure to decide quickly, bonuses for bringing in friends, and requests to pay money to an individual rather than a licensed company are classic signs of a pyramid or Ponzi scheme. Check the licence first and pay later.",
+          "variant": "warning"
+        }
+      ],
+      "takeaways": [
+        "Different investments trade off return, risk and access to your money.",
+        "Match the investment to when you will need the money.",
+        "Funds are a simple way for beginners to spread risk.",
+        "Check that a firm is licensed before you pay. Guaranteed returns are a warning sign."
+      ],
+      "inUganda": {
+        "title": "Common routes in Uganda",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "**Government securities.** Treasury bills (91, 182 and 364 days) and treasury bonds (roughly two to twenty years) are issued by the Bank of Uganda for the government. You buy through a commercial bank, which helps you open a Central Securities Depository (CSD) account. Bills are auctioned about every two weeks and bonds about once a month. Minimum amounts are modest, so confirm the current figure with your bank.",
+              "**Unit trusts and other collective investment schemes.** Fund managers pool money from many investors and invest it for you. These are regulated by the Capital Markets Authority (CMA). Compare fees and look at what the fund actually holds.",
+              "**Shares on the Uganda Securities Exchange (USE).** A limited number of companies are listed and trading can be thin, so you may not always be able to sell quickly at a fair price. You buy through a licensed broker.",
+              "**SACCOs.** Member-owned savings and credit groups can pay returns on savings and shares, but quality varies. Check that the SACCO is registered and supervised, and ask to see its financial statements.",
+              "**Land and property.** Popular and often rewarding, but slow to sell and full of legal pitfalls. Confirm ownership at the land registry and use a lawyer before you pay.",
+              "**NSSF.** If you are formally employed, your NSSF contributions are already long-term savings and are worth counting as part of your retirement plan."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Interest rates and returns change, and tax rules (including withholding tax on interest) differ by product and can change. Check current figures with the Bank of Uganda, the Capital Markets Authority and the Uganda Revenue Authority rather than relying on old articles."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "q": "What is the safest type of investment?",
+          "a": "Government-backed securities and bank deposits are generally seen as the lowest-risk options. But \"safe\" still has trade-offs: returns are usually lower, and inflation can eat into them. Nothing is entirely risk-free."
+        },
+        {
+          "q": "What is the best investment for a beginner?",
+          "a": "There is no single best choice, but diversified, low-cost options such as government securities and well-run funds are common starting points because you do not have to pick individual winners."
+        },
+        {
+          "q": "How do I know if an investment company is legitimate?",
+          "a": "Check that it holds a licence from the relevant regulator (for capital markets in Uganda, the Capital Markets Authority). Confirm the licence with the regulator directly, not through the company's own materials. Be wary of anyone who guarantees returns or pushes you to pay quickly."
+        }
+      ],
+      "terms": [
+        "Asset Allocation",
+        "Bond",
+        "Stock",
+        "Mutual Fund",
+        "ETF",
+        "Diversification",
+        "Liquidity"
+      ]
+    },
+    {
+      "id": "why-invest",
+      "title": "Why should you invest?",
+      "short": "To outpace rising prices, reach big goals, and let compounding work for you over time.",
+      "answer": "You invest to make your money grow faster than prices rise, to fund goals that savings alone cannot reach, and to build income that does not depend only on your salary or business.",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "The main reasons"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Keep up with inflation.** Cash loses buying power as prices rise. Investments aim to earn more than {{glossary:Inflation|inflation}}.",
+            "**Reach big goals.** School fees, a home, a business or retirement often need more than you can save from income alone.",
+            "**Let compounding work.** Time does much of the heavy lifting, as the example below shows.",
+            "**Build a second income.** Interest, dividends and rent can add to a salary or irregular income.",
+            "**Avoid depending on one source.** A job or business can have bad months. Investments can act as a cushion."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Why starting early matters"
+        },
+        {
+          "type": "p",
+          "text": "Because of {{glossary:Compound Interest|compounding}}, your earliest contributions have the longest time to grow. Compare two people who each invest UGX 200,000 a month and earn an assumed 10% a year until age 60."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative example: the cost of waiting 10 years",
+          "headers": [
+            "",
+            "Starts at age 25",
+            "Starts at age 35"
+          ],
+          "rows": [
+            [
+              "Years of investing",
+              "35",
+              "25"
+            ],
+            [
+              "Total paid in",
+              "UGX 84 million",
+              "UGX 60 million"
+            ],
+            [
+              "Value at age 60",
+              "About UGX 759 million",
+              "About UGX 265 million"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The person who started early pays in UGX 24 million more, yet ends up with nearly three times as much. The 10% rate is an assumption, not a forecast, and real returns will be uneven. But the pattern is real: time in the market matters more than most people expect."
+        },
+        {
+          "type": "note",
+          "title": "Investing is not right for every shilling",
+          "text": "Investing is not a replacement for a safety net. Build an emergency fund first, avoid investing money you may need soon, and never borrow money to invest.",
+          "variant": "warning"
+        }
+      ],
+      "takeaways": [
+        "Investing helps your money keep pace with, and ideally beat, rising prices.",
+        "It can fund goals that savings alone would take too long to reach.",
+        "Starting early gives compounding more time, which can matter more than the amount.",
+        "Build an emergency fund first, and invest only money you will not need soon."
+      ],
+      "inUganda": {
+        "title": "Why it matters locally",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Many households rely on irregular income from farming, trade or casual work. A regular investing habit, even a small monthly amount into a unit trust or government securities, can add stability. When interest rates on government securities are high they can look very attractive, but rates move over time, so judge an investment by your goal and timeline rather than today's headline rate."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "q": "Is it worth investing small amounts?",
+          "a": "Yes. Regular small amounts add up through compounding, and the habit matters more than the size. Just check for fees that could take a large share of a small balance."
+        },
+        {
+          "q": "Should I pay off debt before investing?",
+          "a": "Generally, clear high-interest debt first. The interest you pay is usually higher and more certain than the returns you might earn. Keep a small emergency fund while you do."
+        },
+        {
+          "q": "Does investing guarantee I will beat inflation?",
+          "a": "No. In some periods an investment may fail to keep up with inflation, which is why time horizon, diversification and costs matter."
+        }
+      ],
+      "terms": [
+        "Inflation",
+        "Compound Interest",
+        "Emergency Fund",
+        "Dividend",
+        "Net Worth"
+      ]
+    },
+    {
+      "id": "best-time-to-invest",
+      "title": "What is the best time to invest?",
+      "short": "When you are financially ready and can leave the money alone for years. Regular investing beats guessing the market.",
+      "answer": "The best time to invest is when you are financially ready and can leave the money alone for years. For most people, the best way to avoid bad timing is to invest regularly rather than trying to predict the market, which usually means starting sooner rather than waiting for a perfect moment.",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Are you ready? A short checklist"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "You have an emergency fund that covers a few months of essential costs ({{glossary:Emergency Fund}}).",
+            "Any high-interest debt is under control.",
+            "You will not need the money for at least the next few years (longer for shares).",
+            "You understand what you are buying and what it costs.",
+            "You can stay calm if the value falls for a while."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Why timing the market rarely works"
+        },
+        {
+          "type": "p",
+          "text": "Markets move for reasons that are hard to predict, and the best and worst days often come close together. Investors who wait for the perfect entry often miss gains while they wait, and those who sell in a panic lock in their losses. Long-term studies of stock markets generally show that staying invested has mattered more than picking entry points."
+        },
+        {
+          "type": "h3",
+          "text": "A practical approach: invest regularly"
+        },
+        {
+          "type": "p",
+          "text": "{{glossary:Dollar-Cost Averaging}} means investing a fixed amount on a regular schedule, for example UGX 100,000 every month instead of UGX 1,200,000 once a year. When prices are low, your money buys more; when they are high, it buys less. This smooths the price you pay and removes the pressure of choosing the right day."
+        },
+        {
+          "type": "note",
+          "title": "If you have a lump sum",
+          "text": "In studies of major markets, investing a lump sum all at once has more often come out ahead, because markets tend to rise over time. But spreading it over several months feels safer if a fall would worry you. Choose the approach you will actually stick with.",
+          "variant": "example"
+        }
+      ],
+      "takeaways": [
+        "Readiness matters more than the market: emergency fund first, then invest money you will not need soon.",
+        "Nobody can reliably time the market, so do not wait for a perfect moment.",
+        "Investing a fixed amount regularly smooths out highs and lows.",
+        "Match the length of the investment to when you will need the money."
+      ],
+      "inUganda": {
+        "title": "Timing in practice",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Government securities are bought on auction dates: Treasury bills about every two weeks and Treasury bonds about once a month, so plan ahead and give your bank time to place your bid. Existing bills and bonds can often be bought and sold on the secondary market through a bank, which gives you more flexibility. Interest rates move over time, so avoid waiting indefinitely for the best rate. Choose a maturity that matches when you will need the money."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "q": "Is now a good time to invest?",
+          "a": "Nobody can say for sure. If you are financially ready and investing for the long term, starting now and investing regularly is a sensible default. If you need the money soon, it is not a good time for risky investments, whatever the market is doing."
+        },
+        {
+          "q": "Should I wait for the market to fall?",
+          "a": "Waiting can work out, but it is a gamble. Markets can rise for years without a pullback, and a fall may not come when you expect it. Investing regularly avoids having to guess."
+        },
+        {
+          "q": "How long should I stay invested?",
+          "a": "Longer is better because it gives more time to recover from downturns. A common rule of thumb for shares is at least five years, and ideally much longer."
+        }
+      ],
+      "terms": [
+        "Dollar-Cost Averaging",
+        "Emergency Fund",
+        "Volatility",
+        "Bear Market",
+        "Bull Market"
+      ]
+    },
+    {
+      "id": "what-real-investors-do",
+      "title": "What real investors do to minimize losses and maximize profits",
+      "tocTitle": "What real investors do",
+      "short": "They cannot control returns, so they control diversification, costs, risk and their own behavior.",
+      "answer": "Experienced investors cannot control market returns, so they control what they can: how diversified they are, what they pay in fees, how much risk they take, and how they behave when prices swing. These habits protect against big losses and give compounding the best chance to work.",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No one can guarantee a profit or avoid losses completely. What separates experienced investors from beginners is not secret knowledge but a set of steady habits."
+        },
+        {
+          "type": "h3",
+          "text": "How they limit losses"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**Diversify.** Spread money across different assets, sectors and issuers so one failure does not sink everything ({{glossary:Diversification}}).",
+            "**Keep an emergency fund.** It stops you from selling investments at a bad time to cover a surprise bill.",
+            "**Do not invest borrowed money.** Debt turns a dip into a crisis.",
+            "**Size positions sensibly.** Avoid putting a large share of your money in one asset, however confident you feel.",
+            "**Do the homework.** Understand how an investment makes money, check the provider is licensed, and walk away from anything you cannot explain in a sentence.",
+            "**Match risk to the timeline.** Money needed soon belongs in lower-risk places ({{glossary:Risk Tolerance}}).",
+            "**Do not panic-sell.** Falls are normal ({{glossary:Volatility}}). A written plan makes it easier to stay put."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "How they improve returns over time"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Keep costs low.** Fees compound too, and over decades they can take a large bite out of returns ({{glossary:Expense Ratio}}).",
+            "**Reinvest income.** Putting interest and dividends back to work boosts compounding.",
+            "**Invest consistently.** Regular contributions beat occasional bursts of enthusiasm.",
+            "**Rebalance occasionally.** Once or twice a year, bring your mix back to its target ({{glossary:Rebalancing}}). This trims what has grown a lot and tops up what has lagged, which keeps risk in check.",
+            "**Be patient.** Most of the reward comes from staying invested for years.",
+            "**Mind taxes.** What you keep matters more than what you earn."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "What a simple plan looks like"
+        },
+        {
+          "type": "p",
+          "text": "A beginner's plan can be as plain as this: build a three-month emergency fund, put a fixed amount each month into a diversified fund or government securities, review once a year, and ignore the headlines in between."
+        },
+        {
+          "type": "note",
+          "title": "Be wary of guaranteed profits",
+          "text": "Nobody, including professionals, can reliably predict markets. Anyone who promises large, certain returns, whether a stranger on social media or someone you know, is either mistaken or dishonest.",
+          "variant": "warning"
+        }
+      ],
+      "takeaways": [
+        "You cannot control returns, but you can control diversification, costs, risk and behavior.",
+        "Diversify, keep an emergency fund and never invest borrowed money.",
+        "Low fees, reinvested income and steady contributions let compounding do its work.",
+        "Verify licences and distrust guaranteed returns."
+      ],
+      "inUganda": {
+        "title": "Protecting yourself locally",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Verify licences with the Capital Markets Authority before investing in funds or using a broker or adviser.",
+              "Pay into the company's official account, not an individual's mobile money number.",
+              "Get agreements in writing and keep records of every payment.",
+              "For land, confirm ownership at the land registry and use a lawyer before you pay.",
+              "Be sceptical of any scheme that pays bonuses for recruiting others.",
+              "Ask how tax applies to the product, and check the Uganda Revenue Authority for current rules."
+            ]
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "q": "How do I minimize risk when investing?",
+          "a": "You cannot remove risk, but you can reduce it. Diversify, keep an emergency fund, invest for the long term, avoid debt, use regulated providers and keep costs low."
+        },
+        {
+          "q": "What is the biggest mistake new investors make?",
+          "a": "Common ones are chasing recent winners, putting everything in one asset, borrowing to invest, and selling in a panic. A simple, steady plan avoids most of them."
+        },
+        {
+          "q": "Do professional investors beat the market?",
+          "a": "Many professionally managed funds, after fees, do not consistently beat a simple market index over long periods. That is one reason low-cost index funds are a popular choice."
+        }
+      ],
+      "terms": [
+        "Diversification",
+        "Rebalancing",
+        "Expense Ratio",
+        "Risk Tolerance",
+        "Index Fund",
+        "Volatility"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bank of Uganda: government securities, auction calendar and results",
+      "url": "https://www.bou.or.ug"
+    },
+    {
+      "title": "Capital Markets Authority Uganda: licensed firms and investor education",
+      "url": "https://cmauganda.co.ug"
+    },
+    {
+      "title": "Uganda Securities Exchange",
+      "url": "https://www.use.or.ug"
+    },
+    {
+      "title": "Uganda Revenue Authority: current tax rules",
+      "url": "https://ura.go.ug"
+    },
+    {
+      "title": "Uganda Microfinance Regulatory Authority: SACCO supervision",
+      "url": "https://www.umra.go.ug"
+    },
+    {
+      "title": "National Social Security Fund (NSSF) Uganda",
+      "url": "https://www.nssfug.org"
+    },
+    {
+      "title": "Investor.gov: investor education from the US SEC",
+      "url": "https://www.investor.gov"
+    }
+  ],
+  "disclaimer": "This guide is for general education only. It is not financial, tax or legal advice, and it does not recommend any particular product. All investments carry risk, including the loss of the money you put in. Rules, rates and taxes change, so check current details with the relevant regulator or a licensed adviser before you decide.",
+  "next": [
+    {
+      "title": "Personal finance",
+      "url": "personal-finance.html",
+      "text": "Build an emergency fund and a budget before you invest."
+    },
+    {
+      "title": "Markets",
+      "url": "markets.html",
+      "text": "How stock markets work and what moves them."
+    },
+    {
+      "title": "Glossary",
+      "url": "glossary.html",
+      "text": "Plain-English definitions of every term used here."
+    }
+  ]
+}

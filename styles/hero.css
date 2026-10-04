@@ -1,0 +1,177 @@
+/* ==========================================================
+   HERO ENHANCEMENTS
+   Load AFTER styles.css. Uses ONLY your brand variables
+   (--primary, --accent, --radius ...). The hero background,
+   heading size and buttons still come from styles.css.
+   ========================================================== */
+
+.hero { text-align: left; }
+
+.hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: 3rem;
+  align-items: center;
+}
+
+/* ---------- Copy ---------- */
+.hero-eyebrow {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.3rem 0.85rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 50%, transparent);
+  border-radius: 999px;
+}
+
+.hero .hero-accent { color: var(--accent); }
+
+.hero .hero-lead {
+  max-width: 34rem;
+  margin: 0 0 1.75rem;
+  font-size: 1.15rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 1.75rem;
+}
+
+/* ---------- "Where are you starting?" chips ---------- */
+.hero-paths {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-paths-label {
+  width: 100%;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.hero-chip {
+  padding: 0.45rem 0.95rem;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+}
+
+.hero-chip:hover,
+.hero-chip:focus-visible {
+  color: #1F1F1F;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+/* ---------- Trust line ---------- */
+.hero-trust {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.hero-trust li::before {
+  content: "✓";
+  margin-right: 0.4rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* ---------- Compounding card ---------- */
+.hero-card {
+  margin: 0;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: calc(var(--radius) * 1.6);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+}
+
+.hero-card-head { display: flex; flex-direction: column; gap: 0.2rem; margin-bottom: 0.75rem; }
+
+.hero-card-kicker {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.hero-card-stat {
+  font-size: clamp(2rem, 4.5vw, 2.75rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.hero-card-sub { font-size: 0.9rem; color: rgba(255, 255, 255, 0.8); }
+
+.hero-chart { display: block; width: 100%; height: auto; overflow: visible; }
+
+.hero-chart-axis { stroke: rgba(255, 255, 255, 0.25); stroke-width: 1; }
+.hero-chart-label { font-size: 11px; fill: rgba(255, 255, 255, 0.7); }
+
+.hero-stop-top    { stop-color: var(--accent); stop-opacity: 0.35; }
+.hero-stop-bottom { stop-color: var(--accent); stop-opacity: 0; }
+
+.hero-chart-line {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: hero-draw 1.8s ease-out 0.3s forwards;
+}
+
+.hero-chart-dot { fill: var(--accent); stroke: #fff; stroke-width: 2; }
+
+@keyframes hero-draw { to { stroke-dashoffset: 0; } }
+
+.hero .hero-card-note {
+  max-width: none;
+  margin: 0.75rem 0 0;
+  font-size: 0.78rem;
+  opacity: 0.7;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 2.25rem; }
+  .hero-card { max-width: 480px; }
+}
+
+@media (max-width: 480px) {
+  .hero-actions .btn { flex: 1 1 100%; }   /* full-width buttons on phones */
+  .hero-card { padding: 1.15rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-chart-line { animation: none; stroke-dashoffset: 0; }
+}

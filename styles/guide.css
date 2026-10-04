@@ -1,0 +1,292 @@
+/* ==========================================================
+   GUIDE PAGES (investing, personal finance, markets ...)
+   Load AFTER styles.css. Uses only your brand variables.
+   Editorial layout: text on the page background, a few tables,
+   flat callouts and accordions. No grid of cards.
+   ========================================================== */
+
+.guide-page { padding-top: 1.75rem; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- Breadcrumb + header ---------- */
+.guide-crumbs { margin-bottom: 1.25rem; font-size: 0.85rem; color: var(--text-muted); }
+.guide-crumbs ol { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0; padding: 0; list-style: none; }
+.guide-crumbs li + li::before { content: "›"; margin-right: 0.4rem; }
+.guide-crumbs a { color: var(--text-light); }
+.guide-crumbs a:hover { color: var(--primary); }
+
+.guide-header { max-width: 780px; margin-bottom: 0; }
+.guide-header h1 { margin-bottom: 0.9rem; }
+.guide-lead { margin: 0 0 1.25rem; font-size: 1.15rem; line-height: 1.65; color: var(--text-light); }
+.guide-header .article-meta { margin-bottom: 0; }
+.guide-header .article-meta strong { color: var(--text); font-weight: 600; }
+
+/* ---------- Body typography ---------- */
+.guide-body { min-width: 0; font-size: 1.04rem; line-height: 1.75; }
+.guide-body p { margin: 0 0 1.1rem; }
+
+.guide-body p a,
+.guide-body li a,
+.guide-body td a,
+.guide-body summary a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.guide-body a.term-link {
+  text-decoration-style: dotted;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 2px;
+}
+
+.guide-body h3 {
+  margin: 1.9rem 0 0.6rem;
+  font-size: 1.2rem;
+  line-height: 1.35;
+  color: var(--text);
+}
+
+.guide-body ul,
+.guide-body ol { margin: 0 0 1.25rem 1.35rem; }
+.guide-body li { margin-bottom: 0.55rem; }
+
+/* ---------- Short version (top of article) ---------- */
+.guide-glance {
+  margin: 0 0 1rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.guide-glance h2 { margin: 0 0 0.75rem; font-size: 1.1rem; color: var(--primary); }
+.guide-glance ol { margin: 0; padding: 0; list-style: none; counter-reset: glance; }
+.guide-glance li { margin: 0 0 0.6rem; counter-increment: glance; }
+.guide-glance li:last-child { margin-bottom: 0; }
+.guide-glance a { display: block; padding-left: 2rem; position: relative; color: var(--text-light); text-decoration: none; }
+.guide-glance a::before {
+  content: counter(glance);
+  position: absolute;
+  left: 0;
+  top: 0.15rem;
+  display: grid;
+  place-items: center;
+  width: 1.4rem;
+  height: 1.4rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--primary);
+  border-radius: 50%;
+}
+.guide-glance strong { display: block; color: var(--primary); }
+.guide-glance span { font-size: 0.95rem; line-height: 1.5; }
+.guide-glance a:hover strong { color: var(--accent); }
+
+/* ---------- Sections ---------- */
+.guide-section {
+  margin-top: 2.75rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--border);
+  scroll-margin-top: 90px;
+}
+.guide-glance + .guide-section { margin-top: 1.5rem; border-top: 0; padding-top: 1rem; }
+
+.guide-section h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 0 0 0.9rem;
+  font-size: 1.65rem;
+  line-height: 1.25;
+  color: var(--primary);
+}
+
+.guide-num {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--primary);
+  border-radius: 50%;
+}
+
+.guide-answer { font-size: 1.12rem; line-height: 1.7; color: var(--text); }
+
+/* ---------- Tables ---------- */
+.table-wrap {
+  margin: 1.4rem 0;
+  overflow-x: auto;
+  background: var(--bg-white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.table-wrap:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.table-wrap table { width: 100%; min-width: 600px; border-collapse: collapse; font-size: 0.93rem; line-height: 1.5; }
+.table-wrap caption { padding: 0.8rem 1rem; text-align: left; font-weight: 600; color: var(--primary); }
+.table-wrap th,
+.table-wrap td { padding: 0.7rem 1rem; text-align: left; vertical-align: top; border-top: 1px solid var(--border); }
+.table-wrap thead th {
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-light);
+  background: var(--bg);
+}
+.table-wrap tbody th { font-weight: 600; color: var(--text); }
+
+/* ---------- Flat callouts ---------- */
+.guide-note {
+  margin: 1.5rem 0;
+  padding: 1rem 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.guide-note p { margin: 0; }
+.guide-note-title { margin-bottom: 0.3rem !important; font-weight: 700; color: var(--primary); }
+.guide-note.is-warning { padding-left: 1rem; border-left: 4px solid var(--primary); }
+.guide-note.is-example .guide-note-title::before { content: "Example: "; color: var(--text-muted); font-weight: 600; }
+
+/* "In Uganda" panel: same look as your blockquote style */
+.guide-local {
+  margin: 1.9rem 0;
+  padding: 1rem 1.25rem 0.4rem;
+  background: rgba(201, 162, 39, 0.07);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+}
+.guide-local-title {
+  margin-bottom: 0.5rem !important;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+/* ---------- Takeaways ---------- */
+.guide-takeaways { margin: 1.9rem 0 0; padding-top: 1.1rem; border-top: 1px dashed var(--border); }
+.guide-body .guide-takeaways h3 {
+  margin: 0 0 0.6rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+.guide-takeaways ul { margin: 0; padding: 0; list-style: none; }
+.guide-takeaways li { position: relative; margin-bottom: 0.4rem; padding-left: 1.5rem; }
+.guide-takeaways li::before { content: "✓"; position: absolute; left: 0; font-weight: 700; color: var(--accent); }
+
+/* ---------- FAQ accordions ---------- */
+.guide-faq { margin-top: 1.9rem; }
+.guide-body .guide-faq h3 { margin: 0 0 0.4rem; font-size: 1.2rem; }
+.guide-faq details { border-bottom: 1px solid var(--border); }
+.guide-faq details:first-of-type { border-top: 1px solid var(--border); }
+.guide-faq summary {
+  position: relative;
+  padding: 0.9rem 2rem 0.9rem 0;
+  font-weight: 600;
+  list-style: none;
+  cursor: pointer;
+}
+.guide-faq summary::-webkit-details-marker { display: none; }
+.guide-faq summary::after {
+  content: "+";
+  position: absolute;
+  right: 0.25rem;
+  top: 0.75rem;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: var(--accent);
+}
+.guide-faq details[open] summary::after { content: "−"; }
+.guide-faq summary:hover { color: var(--primary); }
+.guide-faq summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.guide-faq details p { margin: 0; padding: 0 0 1rem; color: var(--text-light); }
+
+.guide-terms { margin: 1.25rem 0 0; font-size: 0.9rem; color: var(--text-muted); }
+
+/* ---------- Ads ---------- */
+.ad-in-content { min-height: 120px; margin: 2.75rem 0 0; }
+
+/* ---------- Sources, next steps, disclaimer ---------- */
+.guide-body .guide-h2-plain { display: block; margin: 0 0 0.75rem; font-size: 1.3rem; }
+.guide-sources,
+.guide-next { margin-top: 2.75rem; padding-top: 2rem; border-top: 1px solid var(--border); }
+.guide-sources p { font-size: 0.95rem; color: var(--text-light); }
+.guide-sources ul { font-size: 0.95rem; }
+.guide-next ul { margin: 0; padding: 0; list-style: none; }
+.guide-next li { margin-bottom: 0.6rem; }
+.guide-next li a { font-weight: 600; }
+.guide-next li span { color: var(--text-light); font-size: 0.95rem; }
+.guide-next li span::before { content: "— "; }
+
+.guide-author { margin-top: 2rem; font-size: 0.95rem; color: var(--text-light); }
+.guide-disclaimer {
+  margin-top: 2.5rem !important;
+  padding-top: 1rem;
+  font-size: 0.86rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+}
+
+/* ---------- Sidebar: table of contents (no box) ---------- */
+.guide-toc { margin-bottom: 1.5rem; }
+.guide-toc-title {
+  margin: 0 0 0.7rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+.guide-toc ol { margin: 0; padding: 0; list-style: none; border-left: 2px solid var(--border); }
+.guide-toc a {
+  display: block;
+  margin-left: -2px;
+  padding: 0.4rem 0 0.4rem 0.9rem;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  color: var(--text-light);
+  border-left: 2px solid transparent;
+}
+.guide-toc a:hover { color: var(--primary); }
+.guide-toc a.is-active { font-weight: 600; color: var(--primary); border-left-color: var(--accent); }
+
+/* Mobile "On this page" (reuses your .toc look) */
+.toc-mobile { display: none; margin-bottom: 1.25rem; }
+.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--primary); }
+.toc-mobile ol { margin: 0.8rem 0 0 1.1rem; font-size: 0.95rem; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .toc-mobile { display: block; }
+  .guide-toc { display: none; }                 /* the mobile "On this page" replaces it */
+  .guide-section { scroll-margin-top: 80px; }
+}
+
+@media (max-width: 600px) {
+  .guide-body { font-size: 1rem; }
+  .guide-header h1 { font-size: 1.75rem; }
+  .guide-section h2 { font-size: 1.4rem; align-items: flex-start; }
+  .guide-num { margin-top: 0.1rem; }
+  .guide-local { padding: 0.9rem 1rem 0.3rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

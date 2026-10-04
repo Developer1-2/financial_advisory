@@ -1,0 +1,579 @@
+{
+  "slug": "personal-finance",
+  "nav": "personal-finance",
+  "siteUrl": "",
+  "title": "Personal Finance: A Practical Guide to Managing Your Money",
+  "metaTitle": "Personal Finance Basics: A Practical Guide — Quiet Wealth",
+  "metaDescription": "Learn what personal finance is, why it matters, its key areas (budgeting, saving, debt, protection) and how to cope in hard times. With notes for Uganda.",
+  "tag": "Personal finance guide",
+  "lead": "Personal finance is how you earn, spend, save, borrow and protect your money, and how you plan for the future. This guide explains what it is, why it matters, the key areas to understand, and practical ways to cope and recover when money gets tight. It is written for anyone, with notes for readers in Uganda.",
+  "author": {
+    "name": "",
+    "title": "",
+    "bio": ""
+  },
+  "published": "2026-10-03",
+  "updated": "2026-10-03",
+  "related": [
+    {
+      "title": "Investing",
+      "url": "investing.html"
+    },
+    {
+      "title": "Markets",
+      "url": "markets.html"
+    },
+    {
+      "title": "Glossary",
+      "url": "glossary.html"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-personal-finance",
+      "title": "What is personal finance?",
+      "short": "How you earn, spend, save, borrow, protect and grow your money, and plan for the future.",
+      "answer": "Personal finance is how you manage your own money: earning it, spending it, saving it, borrowing it, protecting it and growing it. It is a set of everyday decisions and habits that, together, decide how secure and flexible your life is.",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Personal finance is not about being rich, and you do not need a high income to practise it. It is the everyday work of making your money do what you need it to do: pay the bills, handle surprises, and move you towards the things you want. The same principles apply whether you earn a salary, run a small business, farm, or live on irregular income."
+        },
+        {
+          "type": "h3",
+          "text": "Four numbers that describe your finances"
+        },
+        {
+          "type": "p",
+          "text": "Almost everything in personal finance starts with four simple numbers."
+        },
+        {
+          "type": "table",
+          "caption": "The four building blocks, with an illustrative example",
+          "headers": [
+            "Building block",
+            "What it means",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Income",
+              "Money coming in: salary, business profit, rent, allowances, or help from family",
+              "UGX 1,500,000 a month"
+            ],
+            [
+              "Expenses",
+              "Money going out: rent, food, transport, school fees, airtime, repayments",
+              "UGX 1,200,000 a month"
+            ],
+            [
+              "{{glossary:Asset|Assets}}",
+              "What you own that has value: savings, mobile money balances, land, equipment, investments",
+              "UGX 15,000,000"
+            ],
+            [
+              "{{glossary:Liability|Liabilities}}",
+              "What you owe: loans, unpaid bills, money borrowed from others",
+              "UGX 6,000,000"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Income minus expenses is your {{glossary:Cash Flow|cash flow}}. In the example that is UGX 300,000 a month, a {{glossary:Savings Rate|savings rate}} of 20%. Assets minus liabilities is your {{glossary:Net Worth|net worth}}, here UGX 9,000,000. Cash flow tells you how you are doing this month. Net worth tells you how you are doing over time."
+        },
+        {
+          "type": "h3",
+          "text": "What personal finance covers"
+        },
+        {
+          "type": "p",
+          "text": "In short, it covers how you earn, spend, save, borrow, protect and grow money, and how you plan for the future. The [key areas](#key-areas) section below looks at each one."
+        },
+        {
+          "type": "h3",
+          "text": "Common misunderstandings"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**\"It is just budgeting.\"** A budget is one tool. Personal finance also covers saving, borrowing wisely, protection and planning.",
+            "**\"It is only for people with money.\"** People with less money have less room for error, so good habits matter even more.",
+            "**\"It means spending nothing.\"** The aim is to spend on what matters to you and cut waste, not to give up everything you enjoy.",
+            "**\"It is about earning more.\"** A higher income helps, but without good habits extra money tends to disappear too."
+          ]
+        }
+      ],
+      "takeaways": [
+        "Personal finance is the everyday management of your income, spending, saving, borrowing and planning.",
+        "Four numbers describe your position: income, expenses, assets and liabilities.",
+        "Cash flow shows how you are doing this month; net worth shows how you are doing over time.",
+        "You do not need a high income to start. You need to know your numbers."
+      ],
+      "inUganda": {
+        "title": "In Uganda",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Many people have more than one source of money: a salary plus a small business, farm produce or occasional work. Count all of them, including irregular income, when you work out your numbers. Mobile money, savings groups, SACCOs and bank accounts can all hold your assets, so list every place you keep money."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "q": "Is personal finance only about budgeting?",
+          "a": "No. Budgeting is the starting point, but personal finance also includes saving, borrowing, protection, investing, planning for retirement and keeping records."
+        },
+        {
+          "q": "Do I need a high income to manage my money well?",
+          "a": "No. The principles are the same at every income level. If anything, a smaller income makes good habits more important, because there is less room to absorb mistakes or surprises."
+        },
+        {
+          "q": "What is the first step in personal finance?",
+          "a": "Know your numbers. Write down what comes in and what goes out for a month, and list what you own and what you owe. You cannot improve what you cannot see."
+        }
+      ],
+      "terms": [
+        "Budget",
+        "Cash Flow",
+        "Net Worth",
+        "Savings Rate",
+        "Asset",
+        "Liability"
+      ]
+    },
+    {
+      "id": "why-personal-finance-matters",
+      "title": "Why should individuals care about personal finance?",
+      "short": "It gives you security, choices and less stress, and protects you from costly mistakes.",
+      "answer": "Personal finance matters because money touches almost every part of life: your security, your choices, your stress levels and your family's future. Good habits give you a buffer against shocks and the freedom to make decisions on your own terms.",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "What good money habits give you"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Security.** Savings give you a cushion when something goes wrong, so a bad month does not become a crisis.",
+            "**Choice.** With some money behind you, you can change jobs, study, start a business or say no to a bad deal.",
+            "**Less stress.** Money worries are a common source of anxiety. Knowing where you stand reduces them.",
+            "**Progress towards goals.** School fees, a home, a business or retirement become plans instead of wishes.",
+            "**Protection from costly mistakes.** You are less likely to take expensive loans or fall for schemes that promise guaranteed returns.",
+            "**Support for others.** Many people look after children, parents or other relatives. A plan helps you do that without running out.",
+            "**A way to stop working one day.** Retirement is easier to afford when you start preparing early."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "What it can cost to ignore it"
+        },
+        {
+          "type": "p",
+          "text": "Without a plan, money tends to leak away on small things, and surprises turn into debt. A sudden bill you cannot cover often means borrowing, and borrowing means paying back more than you received."
+        },
+        {
+          "type": "note",
+          "title": "Small leaks add up",
+          "text": "Spending UGX 5,000 a week on things you barely notice comes to UGX 260,000 over a year. That is enough to start an {{glossary:Emergency Fund|emergency fund}}.",
+          "variant": "example"
+        },
+        {
+          "type": "p",
+          "text": "Good habits also protect you from bigger mistakes, such as high-cost loans, schemes that promise guaranteed returns, and decisions made in a panic."
+        },
+        {
+          "type": "h3",
+          "text": "It is never too early or too late"
+        },
+        {
+          "type": "p",
+          "text": "If you are young, time is on your side, because small habits compound over the years. If you are older, a clear plan still helps you avoid costly mistakes and prepare for retirement. The best time to start is with your next payment or sale."
+        }
+      ],
+      "takeaways": [
+        "Good money habits give you security, choice and less stress.",
+        "Small, unnoticed spending adds up to large amounts over a year.",
+        "Without savings, a surprise bill often becomes expensive borrowing.",
+        "You can start at any age and at any income level."
+      ],
+      "inUganda": {
+        "title": "Why it matters locally",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Many people support relatives, pay school fees in lump sums, or are asked to contribute to family and community events. These are real, recurring costs, so plan for them in your budget instead of being forced to borrow when they arrive. Mobile money makes moving money fast and easy, but transfer and withdrawal fees and small frequent spending can add up unnoticed, so track them."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "q": "When should I start managing my money?",
+          "a": "As soon as you have money coming in. The habits you build early, such as tracking spending and saving a fixed amount, matter more than the size of your income at the start."
+        },
+        {
+          "q": "Does personal finance matter if I earn very little?",
+          "a": "Yes, and often more. A small shock, such as a medical bill, can hurt much more when there is no buffer, so even small savings and clear priorities make a real difference."
+        },
+        {
+          "q": "Will good money management make me rich?",
+          "a": "It will not guarantee wealth, but it builds security first, and security is what lets you take on goals such as investing later. Wealth comes from steady habits over many years, not from a single decision."
+        }
+      ],
+      "terms": [
+        "Emergency Fund",
+        "Budget",
+        "Savings Rate",
+        "Interest Rate",
+        "Credit Score"
+      ]
+    },
+    {
+      "id": "key-areas",
+      "title": "Key areas of personal finance",
+      "short": "Budgeting, saving, debt, protection, investing, retirement, and taxes and records. They work together.",
+      "answer": "The key areas of personal finance are budgeting, saving, borrowing and debt, protection, investing, retirement planning, and taxes and record-keeping. They work together: each one supports the others, and you can improve them one step at a time.",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "You do not need to master everything at once. This table gives the overview, and the sections below explain each area and a good first step."
+        },
+        {
+          "type": "table",
+          "caption": "The seven key areas at a glance",
+          "headers": [
+            "Area",
+            "The question it answers",
+            "A good first step"
+          ],
+          "rows": [
+            [
+              "Budgeting and cash flow",
+              "Where does my money go?",
+              "Track every shilling for a month"
+            ],
+            [
+              "Saving",
+              "Do I have a cushion and a plan for my goals?",
+              "Start an emergency fund with a small regular amount"
+            ],
+            [
+              "Debt and credit",
+              "What do I owe, and what does it cost?",
+              "List every debt with its total cost and due date"
+            ],
+            [
+              "Protection",
+              "What happens if something goes wrong?",
+              "Identify the biggest risk to your family and look at cover"
+            ],
+            [
+              "Investing",
+              "How can my money grow?",
+              "Read the [investing guide](investing.html) and start small"
+            ],
+            [
+              "Retirement and the future",
+              "How will I live when I cannot work?",
+              "Find out what you already have and what is missing"
+            ],
+            [
+              "Taxes and records",
+              "Am I keeping records and meeting my obligations?",
+              "Keep receipts and check requirements with the tax authority"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "1. Budgeting and cash flow"
+        },
+        {
+          "type": "p",
+          "text": "A {{glossary:Budget|budget}} is a plan for your money: what comes in, what goes out, and what is left. Popular frameworks such as the {{glossary:50/30/20 Rule}} split income into needs, wants and savings, but the best budget is the one you can actually follow. If your income is irregular, build your budget on a typical low month and treat anything extra as a bonus."
+        },
+        {
+          "type": "p",
+          "text": "**First step:** track every shilling you spend for one month."
+        },
+        {
+          "type": "h3",
+          "text": "2. Saving"
+        },
+        {
+          "type": "p",
+          "text": "Saving gives you a cushion and a way to pay for goals without borrowing. The first priority is an {{glossary:Emergency Fund|emergency fund}}, usually three to six months of essential costs kept somewhere easy to reach. Next come goals such as school fees, a home or starting a business. Paying yourself first, by moving a fixed amount as soon as you are paid, works better than saving whatever is left over."
+        },
+        {
+          "type": "p",
+          "text": "**First step:** set up a small regular transfer, even a modest fixed amount."
+        },
+        {
+          "type": "h3",
+          "text": "3. Debt and credit"
+        },
+        {
+          "type": "p",
+          "text": "Borrowing can be useful, for example to start a business or buy property, but it always has a cost. Look at the {{glossary:APR|annual percentage rate}} or the total cost, not just the monthly payment, and borrow only what you can repay. Paying on time protects your {{glossary:Credit Score|credit record}}. If you have several debts, the {{glossary:Debt Avalanche|avalanche method}} (highest interest first) saves the most money, while the {{glossary:Debt Snowball|snowball method}} (smallest balance first) gives quick wins that help some people stay motivated."
+        },
+        {
+          "type": "p",
+          "text": "**First step:** list every debt with its total cost, due date and who it is owed to."
+        },
+        {
+          "type": "h3",
+          "text": "4. Protection"
+        },
+        {
+          "type": "p",
+          "text": "{{glossary:Insurance}} moves the cost of a large, unlikely event, such as a hospital stay, an accident or damage to property, to a company in exchange for a regular premium. Think about which risks would hurt your family most, and what cover is available and affordable. Make sure the insurer is licensed and read what is and is not covered. Protection also includes simple steps like keeping important documents safe and writing down who to contact in an emergency."
+        },
+        {
+          "type": "p",
+          "text": "**First step:** identify the one risk that would hurt your family most and find out what cover exists."
+        },
+        {
+          "type": "h3",
+          "text": "5. Investing"
+        },
+        {
+          "type": "p",
+          "text": "Once you have an emergency fund and your expensive debts are under control, investing can help your money grow faster than prices rise. Our [investing guide](investing.html) covers the basics, the main types of investment and how to avoid common mistakes."
+        },
+        {
+          "type": "p",
+          "text": "**First step:** read the investing guide, then start small."
+        },
+        {
+          "type": "h3",
+          "text": "6. Retirement and the future"
+        },
+        {
+          "type": "p",
+          "text": "Few people can work forever, so plan for the day your income stops. If you are formally employed, your NSSF contributions are a starting point. Add your own long-term savings or investments on top, and think about how you would support yourself if illness or age stopped you working."
+        },
+        {
+          "type": "p",
+          "text": "**First step:** find out what you have already built up and how much more you may need."
+        },
+        {
+          "type": "h3",
+          "text": "7. Taxes and records"
+        },
+        {
+          "type": "p",
+          "text": "Know what tax applies to your income and keep simple records of what you earn and spend. Good records make it easier to get a loan, prove your income and avoid penalties. Tax rules change, so check current requirements with the tax authority rather than relying on old information."
+        },
+        {
+          "type": "p",
+          "text": "**First step:** keep receipts and a simple monthly record, and find out whether you need to register for tax."
+        }
+      ],
+      "takeaways": [
+        "There are seven connected areas: budgeting, saving, debt, protection, investing, retirement, and taxes and records.",
+        "Start with your numbers, then an emergency fund, then expensive debt. Investing comes after those.",
+        "Look at the total cost of any loan, not just the monthly payment.",
+        "You can improve one area at a time. A small first step in each is enough to begin."
+      ],
+      "inUganda": {
+        "title": "Tools many people already use",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "**Mobile money:** convenient for payments and short-term saving. Compare fees, and avoid keeping all your savings where you can spend them in a tap.",
+              "**SACCOs and savings groups:** useful for saving and borrowing together. SACCOs and money lenders are expected to be licensed by the Uganda Microfinance Regulatory Authority (UMRA), so check before you join or lend.",
+              "**Banks:** compare account fees and interest. Banks are regulated by the Bank of Uganda.",
+              "**NSSF:** a compulsory savings scheme for many employees, worth counting in your retirement plan.",
+              "**Digital and mobile loans:** quick, but often costly. UMRA has issued guidelines for digital lenders, so check that a lender is licensed and read the total cost before you accept."
+            ]
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "q": "Which area should I start with?",
+          "a": "Start by knowing your numbers through a simple budget, then build a small emergency fund, then deal with expensive debt. Investing and longer-term planning come after that foundation."
+        },
+        {
+          "q": "Do I need a financial adviser?",
+          "a": "Not for the basics. For larger or more complex decisions, a licensed adviser can help. Be careful with anyone who earns commission for selling you a product, and ask how they are paid."
+        },
+        {
+          "q": "How often should I review my finances?",
+          "a": "A quick check once a month, to compare what you planned with what happened, plus a deeper review once a year or when your life changes, such as a new job, a new child or a new debt."
+        }
+      ],
+      "terms": [
+        "Budget",
+        "50/30/20 Rule",
+        "Emergency Fund",
+        "Credit Score",
+        "APR",
+        "Insurance",
+        "Debt Avalanche",
+        "Debt Snowball"
+      ]
+    },
+    {
+      "id": "difficult-financial-times",
+      "title": "Best ways to cope and recover in a difficult financial time",
+      "tocTitle": "Coping in hard times",
+      "short": "Protect essentials, know your numbers, talk to lenders early, find extra income and avoid costly fixes.",
+      "answer": "In a difficult financial time, the best approach is to protect the essentials first, get a clear picture of your money, cut and delay what you can, talk to the people you owe before you miss payments, look for extra income, and avoid expensive debt and scams. Small, calm steps matter more than big, risky moves.",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hard times happen to almost everyone: a lost job, an illness, a failed harvest or business, rising prices. Struggling is not a sign of failure. What helps most is acting early and in the right order."
+        },
+        {
+          "type": "h3",
+          "text": "A step-by-step plan"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**Take stock.** Write down all the money coming in, including small and irregular income, and everything going out. List every debt with who it is owed to, how much, the minimum payment and the due date.",
+            "**Protect the essentials.** Food, shelter, health, school, transport to work and utilities come first.",
+            "**Cut and pause.** Pause subscriptions, reduce airtime and data, and delay non-urgent purchases. Write down what each cut saves so you can see progress.",
+            "**Talk to lenders early.** Contact them before you miss a payment. Ask about smaller payments or a longer term, and get any agreement in writing.",
+            "**Boost your income.** Use your skills for extra work, sell items you no longer need, and ask about more hours. Be wary of any job that asks you to pay a fee first.",
+            "**Use support.** Family, savings groups, your SACCO, community and faith groups, and aid programmes may help. Ask for something specific.",
+            "**Avoid expensive fixes.** Quick loans with high charges, borrowing to repay other loans, and get-rich-quick schemes usually make things worse.",
+            "**Keep a small buffer.** Even UGX 5,000 a week towards an emergency fund can stop the next surprise from turning into more debt.",
+            "**Look after yourself.** Money stress affects health and decisions. Talk to someone you trust."
+          ]
+        },
+        {
+          "type": "note",
+          "title": "A worked example",
+          "text": "Suppose your monthly spending is UGX 1,200,000: UGX 800,000 on essentials, UGX 250,000 on wants and UGX 150,000 on debt payments. Your income then falls to UGX 900,000, leaving a gap of UGX 300,000. Cutting wants to UGX 50,000 saves UGX 200,000, and agreeing smaller debt payments of UGX 50,000 with your lenders saves another UGX 100,000. The gap closes. The figures are illustrative, and you should agree reduced payments with your lender first, because missed payments can cost more.",
+          "variant": "example"
+        },
+        {
+          "type": "h3",
+          "text": "If debt is the problem"
+        },
+        {
+          "type": "list",
+          "items": [
+            "List your debts by cost and keep paying at least the minimum on each, so you avoid extra penalties.",
+            "Use the {{glossary:Debt Avalanche|avalanche method}} (highest interest first) to save the most money, or the {{glossary:Debt Snowball|snowball method}} (smallest balance first) if you need quick wins.",
+            "Look at the total cost of any new loan, including fees and the {{glossary:APR|annual percentage rate}}, before you accept it.",
+            "Never borrow from one lender just to pay another unless the new loan is clearly cheaper and you understand all of its terms."
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Be careful with quick-cash and debt-relief offers",
+          "text": "Anyone who asks for an upfront fee to clear your debts or unlock a loan, or who contacts you out of the blue with a guaranteed approval, may be a scammer. Real lenders do not charge you to be approved.",
+          "variant": "warning"
+        },
+        {
+          "type": "h3",
+          "text": "Rebuilding afterwards"
+        },
+        {
+          "type": "p",
+          "text": "When things improve, rebuild in order. First restore a small emergency fund, aiming for one month of essential costs and then three. Then clear your most expensive debts. After that, restart regular saving and, when you are ready, investing. See the [investing guide](investing.html) for how to begin. Keep the habits that worked in the hard time, such as tracking your spending, because they will protect you next time."
+        }
+      ],
+      "takeaways": [
+        "Act early: take stock, protect the essentials, then cut and delay what you can.",
+        "Talk to lenders before you miss a payment and get any agreement in writing.",
+        "Use savings and support networks before expensive borrowing.",
+        "Avoid quick loans, upfront fees and get-rich-quick schemes.",
+        "Rebuild step by step: emergency fund, then costly debt, then saving and investing."
+      ],
+      "inUganda": {
+        "title": "Hard times in Uganda",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Before taking any loan, check that the lender is licensed. UMRA licenses money lenders, SACCOs and digital lenders, and the Bank of Uganda regulates banks.",
+              "UMRA says licensed money lenders must give borrowers a copy of the loan agreement that sets out all the interest and charges. Keep it, and do not sign anything you have not read.",
+              "If a licensed lender treats you unfairly, you can complain to its regulator. Check the regulator's website for how.",
+              "Savings groups, SACCOs, family and community networks are often the first line of support. Ask early and say clearly what help you need.",
+              "Be careful with mobile money \"doubling\" schemes and with anyone asking for a fee to release a loan.",
+              "Prices for food and fuel can move quickly in unstable times, so review your budget more often than usual, for example every week."
+            ]
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "q": "What should I do first if I lose my income?",
+          "a": "Write down what you have and what you owe, protect essentials such as food, housing and health, and contact lenders before you miss a payment. Then cut non-essential spending and look for any income you can find quickly."
+        },
+        {
+          "q": "Should I use savings or borrow?",
+          "a": "Use savings first, because borrowing adds cost. If you must borrow, choose a licensed lender, compare the total cost, and borrow the smallest amount you can."
+        },
+        {
+          "q": "Is it okay to stop investing in a hard time?",
+          "a": "Yes. Protecting essentials and emergency cash comes first, so pausing new contributions for a while is reasonable. Try not to sell long-term investments at a loss unless you have no other way to cover essential costs."
+        }
+      ],
+      "terms": [
+        "Emergency Fund",
+        "Budget",
+        "APR",
+        "Interest Rate",
+        "Credit Score",
+        "Debt Avalanche",
+        "Debt Snowball"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bank of Uganda: regulation of banks and financial consumer information",
+      "url": "https://www.bou.or.ug"
+    },
+    {
+      "title": "Uganda Microfinance Regulatory Authority (UMRA): licensing of SACCOs, money lenders and digital lenders",
+      "url": "https://www.umra.go.ug"
+    },
+    {
+      "title": "Uganda Revenue Authority: current tax rules",
+      "url": "https://ura.go.ug"
+    },
+    {
+      "title": "National Social Security Fund (NSSF) Uganda",
+      "url": "https://www.nssfug.org"
+    },
+    {
+      "title": "Insurance Regulatory Authority of Uganda",
+      "url": "https://ira.go.ug"
+    },
+    {
+      "title": "Consumer Financial Protection Bureau: budgeting, saving and debt guides",
+      "url": "https://www.consumerfinance.gov"
+    }
+  ],
+  "disclaimer": "This guide is for general education only. It is not financial, tax or legal advice, and it does not recommend any particular product or provider. Rules, rates, fees and taxes change, so check current details with the relevant regulator or a licensed adviser before you decide.",
+  "next": [
+    {
+      "title": "Investing",
+      "url": "investing.html",
+      "text": "Put money to work once your foundation is in place."
+    },
+    {
+      "title": "Markets",
+      "url": "markets.html",
+      "text": "How markets work and what moves them."
+    },
+    {
+      "title": "Guides",
+      "url": "guides.html",
+      "text": "Browse every guide in one place."
+    },
+    {
+      "title": "Glossary",
+      "url": "glossary.html",
+      "text": "Plain-English definitions of every term used here."
+    }
+  ]
+}

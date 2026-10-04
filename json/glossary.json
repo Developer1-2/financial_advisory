@@ -1,0 +1,712 @@
+[
+  {
+    "term": "401(k)",
+    "definition": "A retirement savings plan offered by employers in the United States. You contribute from your paycheck, often with an employer match, and the money grows tax-advantaged until you withdraw it in retirement.",
+    "example": "If you contribute $200 a month and your employer matches half, $300 goes into the account each month.",
+    "aliases": [
+      "401k"
+    ],
+    "related": [
+      "Compound Interest",
+      "Portfolio"
+    ],
+    "category": "Personal Finance"
+  },
+  {
+    "term": "50/30/20 Rule",
+    "definition": "A simple budgeting guideline that splits your after-tax income into three parts: 50% for needs, 30% for wants, and 20% for savings and debt repayment.",
+    "example": "On a $3,000 monthly income: $1,500 for needs, $900 for wants, and $600 for savings and debt.",
+    "aliases": [
+      "50 30 20",
+      "50/30/20 budget"
+    ],
+    "related": [
+      "Budget",
+      "Savings Rate",
+      "Emergency Fund"
+    ],
+    "category": "Personal Finance"
+  },
+  {
+    "term": "APR",
+    "fullName": "Annual Percentage Rate",
+    "definition": "The yearly cost of borrowing, shown as a percentage. It includes interest and certain fees, which makes it easier to compare loans and credit cards.",
+    "aliases": [
+      "annual percentage rate"
+    ],
+    "related": [
+      "Interest Rate",
+      "Mortgage",
+      "Credit Score"
+    ],
+    "category": "Personal Finance"
+  },
+  {
+    "term": "Asset Allocation",
+    "definition": "The process of dividing investments among different asset categories (stocks, bonds, cash, etc.) to balance risk and reward.",
+    "related": [
+      "Diversification",
+      "Rebalancing",
+      "Risk Tolerance",
+      "Portfolio"
+    ],
+    "category": "Investing"
+  },
+
+   {
+    "term": "Amortization",
+    "definition": "The reduction of a loan amount that occurs each time a loan payment is made.By making slightly larger loan payments each month, you might be able to amortize your home loan in 15 years instead of having to make payments for 30 years.",
+    "related": [
+      "Diversification",
+      "Rebalancing",
+      "Risk Tolerance",
+      "Portfolio"
+    ],
+    "category": "Personal Finance"
+  },
+   {
+    "term": "Appreciation",
+    "definition": "The amount of money you make if the price of a stock or other investment goes up in value.",
+    "related": [
+      "Diversification",
+      "Rebalancing",
+      "Risk Tolerance",
+      "Portfolio"
+    ],
+    "category": "Investing"
+  },
+   {
+    "term": "Appreciating Asset",
+    "definition": "something you might purchase that increases in value over time.",
+    "related": [
+      "Bear Market",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+  {
+    "term": "Bear Market",
+    "definition": "A prolonged period of declining prices, typically defined as a drop of 20% or more from recent highs.",
+    "example": "If an index falls from 5,000 to 4,000, it has dropped 20% and has entered a bear market.",
+    "related": [
+      "Bull Market",
+      "Recession",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+  {
+    "term": "Blue-Chip Stock",
+    "definition": "A share in a large, well-established company with a long record of stable earnings and, often, regular dividends.",
+    "aliases": [
+      "blue chip"
+    ],
+    "related": [
+      "Stock",
+      "Dividend",
+      "Market Capitalization"
+    ],
+    "category": "Investing"
+  },
+  {
+    "term": "Bond",
+    "definition": "A loan you make to a government or a company. In return it pays you interest over a set period and repays the original amount (the principal) when the bond matures.",
+    "example": "Buying a $1,000 bond that pays 4% a year gives you $40 in interest each year until it matures.",
+    "aliases": [
+      "bonds"
+    ],
+    "related": [
+      "Yield",
+      "Interest Rate",
+      "Portfolio"
+    ],
+    "category": "Investing"
+  },
+  {
+    "term": "Budget",
+    "definition": "A plan for how you will spend and save your money over a period of time, based on your expected income and expenses.",
+    "related": [
+      "50/30/20 Rule",
+      "Savings Rate",
+      "Net Worth"
+    ],
+    "category": "Personal Finance"
+  },
+  {
+    "term": "Bull Market",
+    "definition": "A period when asset prices are rising or are expected to rise, usually accompanied by investor optimism and confidence.",
+    "related": [
+      "Bear Market",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+   {
+    "term": "Basis Point",
+    "definition":"Is a common unit of measure for interest rates and stocks prices. One basis point is equal to 1/100 of 1%.",
+    "related": [
+      "Bear Market",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+   {
+    "term": "Business Plan",
+    "definition": "Outlines how a company will get started, grow and become profitable.",
+    "related": [
+      "Intellectual Property",
+      "Initial Public Offering (IPO)"
+    ],
+    "category": "Personal Finance",
+    "featured": true
+  },
+
+   {
+    "term": "Balance Sheet Personal Financial Statement",
+    "definition": "A document you prepare on a periodic basis to list the value of everything you own(assets) and everything you owe (libialities).",
+    "related": [
+      "Personal Finance",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+
+  {
+    "term": "Capital Gain",
+    "definition": "The profit you make when you sell an asset, such as a share or a property, for more than you paid for it. Depending on where you live, capital gains may be taxed.",
+    "example": "Buy a share for $50 and sell it for $65, and your capital gain is $15.",
+    "aliases": [
+      "capital gains"
+    ],
+    "related": [
+      "Stock",
+      "Dividend"
+    ],
+    "category": "Investing"
+  },
+  {
+    "term": "Compound Interest",
+    "definition": "Interest earned on both the original principal and on previously accumulated interest. Often called “interest on interest.”",
+    "example": "$1,000 at 5% a year grows to $1,050 after year one. In year two you earn 5% on $1,050, not on the original $1,000.",
+    "aliases": [
+      "compounding"
+    ],
+    "related": [
+      "Interest Rate",
+      "Savings Rate"
+    ],
+    "category": "Investing"
+  },
+  {
+    "term": "Credit Score",
+    "definition": "A number that summarizes how reliably you have repaid debt in the past. Lenders use it to decide whether to lend to you and at what interest rate.",
+    "aliases": [
+      "credit rating"
+    ],
+    "related": [
+      "APR",
+      "Mortgage"
+    ],
+    "category": "Personal Finance"
+  },
+
+   {
+    "term": "Credit Card",
+    "definition": "Payment card that allows you to pay for merchandise and services in exchange for the promise to pay the bank back for the original amount plus any interest or other fees. Spending too much on your credit card can negatively impact your credit score and result in high interest charges.",
+    "related": [
+      "Credit Score",
+      "Volatility"
+    ],
+    "category": "Personal Finance",
+    "featured": true
+  },
+   {
+    "term": "Cash Flow Personal Financial Statement",
+    "definition": "A document you prepare on a periodic basis to list all of your cash inflows (such as earnings or investment income) and all of your cash outflows (money you spend).",
+    "related": [
+      "Bear Market",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+  {
+    "term": "Diversification",
+    "definition": "Spreading your money across different investments so that a fall in any single one does less damage to your whole portfolio.",
+    "related": [
+      "Asset Allocation",
+      "Portfolio",
+      "Risk Tolerance"
+    ],
+    "category": "Investing"
+  },
+  {
+    "term": "Dividend",
+    "definition": "A portion of a company’s earnings paid out to shareholders, usually in cash or additional shares.",
+    "example": "A company that pays $2 per share a year gives you $100 a year if you own 50 shares.",
+    "aliases": [
+      "dividends"
+    ],
+    "related": [
+      "Stock",
+      "Yield",
+      "Blue-Chip Stock"
+    ],
+    "category": "Investing",
+    "featured": true
+  },
+  {
+    "term": "Dollar-Cost Averaging",
+    "definition": "Investing a fixed amount at regular intervals, regardless of price. You buy more shares when prices are low and fewer when they are high, which smooths the average price you pay over time.",
+    "example": "Investing $100 every month instead of $1,200 once a year.",
+    "aliases": [
+      "DCA",
+      "dollar cost averaging"
+    ],
+    "related": [
+      "Volatility",
+      "Index Fund"
+    ],
+    "category": "Investing"
+  },
+
+   {
+    "term": "Depreciating Assets",
+    "definition": "something you might purchase that decreases in value over time.",
+    "related": [
+      "Bear Market",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+  {
+    "term": "Emergency Fund",
+    "definition": "Cash set aside for unexpected costs such as medical bills or losing your job. A common guideline is three to six months of essential expenses, kept somewhere easy to access.",
+    "example": "If your essential costs are $1,500 a month, a three-month emergency fund is $4,500.",
+    "related": [
+      "Budget",
+      "Liquidity",
+      "Savings Rate"
+    ],
+    "category": "Personal Finance"
+  },
+  {
+    "term": "ETF",
+    "fullName": "Exchange-Traded Fund",
+    "definition": "A type of investment fund that holds a basket of assets and trades on stock exchanges like individual stocks.",
+    "aliases": [
+      "exchange traded fund",
+      "exchange-traded fund"
+    ],
+    "related": [
+      "Index Fund",
+      "Mutual Fund",
+      "Expense Ratio"
+    ],
+    "category": "Investing",
+    "featured": true
+  },
+  {
+    "term": "Expense Ratio",
+    "definition": "The yearly fee a fund charges, shown as a percentage of the money you have invested in it.",
+    "example": "A 0.20% expense ratio costs $2 a year for every $1,000 invested.",
+    "aliases": [
+      "management fee",
+      "fund fees"
+    ],
+    "related": [
+      "ETF",
+      "Mutual Fund",
+      "Index Fund"
+    ],
+    "category": "Investing"
+  },
+    {
+    "term": "Fees",
+    "definition": "Money that some companies charge for their products or services. Fees can vary widely and can include sales commissions, management fees, and administrative costs.",
+    "related": [
+      "Bear Market",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+   {
+    "term": "Finance Charge",
+    "definition": "Generally, it is the interest you pay on a credit card if you dont pay off the full balance each month. This is often one of the most expensive ways to borrow money.",
+    "related": [
+      "Bear Market",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+  {
+    "term": "GDP",
+    "fullName": "Gross Domestic Product",
+    "definition": "The total value of goods and services produced in a country over a period, usually a quarter or a year. It is the most common measure of the size of an economy.",
+    "aliases": [
+      "gross domestic product"
+    ],
+    "related": [
+      "Recession",
+      "Inflation"
+    ],
+    "category": "Markets"
+  },
+  {
+    "term": "Inflation",
+    "definition": "The rate at which the general level of prices for goods and services rises, reducing the purchasing power of money.",
+    "example": "If inflation is 5%, something that cost $100 last year now costs about $105.",
+    "related": [
+      "Interest Rate",
+      "Recession"
+    ],
+    "category": "Markets"
+  },
+   {
+    "term": "Intellectual Property",
+    "definition": "Legal rights granted to inventors or creators for their inventions or creative works, such as patents, copyrights, and trademarks.",
+    "related": [
+      "Bear Market",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+
+   {
+    "term": "Index Fund",
+    "definition": "A type of mutual fund or ETF designed to track the performance of a specific market index, such as the S&P 500.",
+    "aliases": [
+      "index funds",
+      "tracker fund"
+    ],
+    "related": [
+      "ETF",
+      "S&P 500",
+      "Expense Ratio",
+      "Mutual Fund"
+    ],
+    "category": "Investing"
+  },
+  {
+    "term": "Interest Rate",
+    "definition": "The cost of borrowing money, or the reward for saving it, shown as a percentage of the amount per year. Central banks influence interest rates to help manage inflation and economic growth.",
+    "related": [
+      "Inflation",
+      "Bond",
+      "APR",
+      "Mortgage"
+    ],
+    "category": "Markets"
+  },
+
+   {
+    "term": "Interest",
+    "definition": "The amount of money paid in exchange for borrowing money. You pay interest if you borrow money. but you earn interest if you put your money in a bank aaccount.",
+    "related": [
+      "Bear Market",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+  {
+    "term": "IPO",
+    "fullName": "Initial Public Offering",
+    "definition": "The first time a private company sells its shares to the public, which lists the company on a stock exchange.",
+    "aliases": [
+      "initial public offering",
+      "going public"
+    ],
+    "related": [
+      "Stock",
+      "Market Capitalization"
+    ],
+    "category": "Markets"
+  },
+   {
+    "term": "Investment Strategy",
+    "definition": "Is how you decide to invest your money based on your goals and how mush risk you want to take.",
+    "related": [
+      "Bear Market",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+  {
+    "term": "Liquidity",
+    "definition": "How easily an asset can be converted into cash without significantly affecting its price.",
+    "related": [
+      "Emergency Fund",
+      "Volatility"
+    ],
+    "category": "Investing"
+  },
+   {
+    "term": "Loan",
+    "definition": "Money borrowed from a bank or other lending institution that must be repaid at a future time.",
+    "related": [
+      "Feess",
+      "Volatility"
+    ],
+    "category": "Investing",
+    "featured": true
+  },
+  {
+    "term": "Market Capitalization",
+    "definition": "The total market value of a company’s shares, found by multiplying the share price by the number of shares outstanding.",
+    "example": "A company with 10 million shares priced at $20 has a market capitalization of $200 million.",
+    "aliases": [
+      "market cap"
+    ],
+    "related": [
+      "Stock",
+      "Blue-Chip Stock",
+      "P/E Ratio"
+    ],
+    "category": "Markets"
+  },
+  {
+    "term": "Mortgage",
+    "definition": "A loan used to buy property, where the property itself is the security. If you stop repaying, the lender can take the property.",
+    "aliases": [
+      "home loan"
+    ],
+    "related": [
+      "APR",
+      "Interest Rate",
+      "Credit Score"
+    ],
+    "category": "Personal Finance"
+  },
+  {
+    "term": "Mutual Fund",
+    "definition": "A fund that pools money from many investors and uses it to buy a mix of stocks, bonds or other assets, managed by professionals.",
+    "aliases": [
+      "mutual funds",
+      "unit trust"
+    ],
+    "related": [
+      "ETF",
+      "Index Fund",
+      "Expense Ratio"
+    ],
+    "category": "Investing"
+  },
+  {
+    "term": "Net Worth",
+    "definition": "What you own minus what you owe. Add up your assets, then subtract your debts.",
+    "example": "Assets of $50,000 and debts of $20,000 give a net worth of $30,000.",
+    "related": [
+      "Budget",
+      "Savings Rate"
+    ],
+    "category": "Personal Finance"
+  },
+  {
+    "term": "Opportunity Cost",
+    "definition": "What you give up when you choose one option over another, such as the growth you miss out on by spending money instead of investing it.",
+    "example": "Spending $1,000 on a gadget means giving up what that $1,000 could have grown to if invested.",
+    "related": [
+      "Budget",
+      "Compound Interest"
+    ],
+    "category": "Personal Finance"
+  },
+  {
+    "term": "P/E Ratio",
+    "fullName": "Price-to-Earnings Ratio",
+    "definition": "A company’s share price divided by its earnings per share. It shows how much investors are paying for each unit of profit and is often used to compare similar companies.",
+    "example": "A share priced at $50 that earns $5 per share a year has a P/E ratio of 10.",
+    "aliases": [
+      "pe ratio",
+      "p/e",
+      "price to earnings",
+      "price-to-earnings"
+    ],
+    "related": [
+      "Stock",
+      "Market Capitalization"
+    ],
+    "category": "Markets"
+  },
+  {
+    "term": "Portfolio",
+    "definition": "A collection of financial investments such as stocks, bonds, cash, and other assets owned by an individual or institution.",
+    "related": [
+      "Asset Allocation",
+      "Diversification",
+      "Rebalancing"
+    ],
+    "category": "Investing"
+  },
+   {
+    "term": "Predatory Lending",
+    "definition": "Unfair, deceptive or fraudulent lending practices that can take advantage of people who are unsuspecting or not knowledegeable about better alternatives. They often use aggressive sales pressure and can include home loans, payday loans, instant tax refund loans, and credit card debt.",
+    "related": [
+      "Bear Market",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+  {
+    "term": "Rebalancing",
+    "definition": "Adjusting your investments back to your target mix. If one asset has grown to a larger share than planned, you sell some of it or direct new money to the others.",
+    "example": "If you aim for 60% stocks and 40% bonds but stocks grow to 70%, rebalancing means moving money back toward 60/40.",
+    "related": [
+      "Asset Allocation",
+      "Portfolio"
+    ],
+    "category": "Investing"
+  },
+  {
+    "term": "Recession",
+    "definition": "A significant, widespread fall in economic activity that lasts more than a few months, often seen as shrinking GDP, rising unemployment and falling spending.",
+    "aliases": [
+      "economic downturn"
+    ],
+    "related": [
+      "GDP",
+      "Bear Market",
+      "Inflation"
+    ],
+    "category": "Markets"
+  },
+  {
+    "term": "Risk Tolerance",
+    "definition": "An investor’s ability and willingness to withstand declines in the value of their investments.",
+    "related": [
+      "Asset Allocation",
+      "Volatility"
+    ],
+    "category": "Investing"
+  },
+   {
+    "term": "Return on Investment (ROI)",
+    "definition": "Measures how well your investment performed. You would have a 10% ROI if you bought an investments for $100 and now it is worth $110.",
+    "related": [
+      "Bear Market",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+
+   {
+    "term": "Rule of 72",
+    "definition": "Dividing 72 by the annual rate of return will quickly estimate how many years it will take to double your invetsment. If you expect an annual return of 10 percent, then it will take approvimately 72 years to double your investment (72 divided by 10-72).",
+    "related": [
+      "Bear Market",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+  {
+    "term": "S&P 500",
+    "fullName": "Standard & Poor’s 500",
+    "definition": "An index that tracks the share prices of 500 large companies listed on US stock exchanges. It is widely used as a measure of how the US stock market is performing.",
+    "aliases": [
+      "sp500",
+      "sp 500",
+      "s and p 500",
+      "standard and poors 500"
+    ],
+    "related": [
+      "Index Fund",
+      "ETF",
+      "Market Capitalization"
+    ],
+    "category": "Markets"
+  },
+    {
+    "term": "Stock Market",
+    "definition": "Where stocks in companies are bought and sold. The New York Stock Exchange(NYSE) and the NASDAQ stock market are two of the most well-known markets.",
+    "related": [
+      "Bear Market",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+  {
+    "term": "Savings Rate",
+    "definition": "The share of your income that you save instead of spending.",
+    "example": "Saving $600 from a $3,000 monthly income is a 20% savings rate.",
+    "related": [
+      "Budget",
+      "50/30/20 Rule",
+      "Emergency Fund"
+    ],
+    "category": "Personal Finance"
+  },
+   {
+    "term": "Stock Index",
+    "definition": "A measuremwnt of the performance of a group of selected stocks. Some well-known examples are the Dow Jones Industrial Average, the standard & Poor 500, and the NASDAQ Composite.",
+    "related": [
+      "Bear Market",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+  {
+    "term": "Stock",
+    "definition": "A share of ownership in a company. If the company grows and profits, the value of your shares and any dividends can rise; if it struggles, they can fall.",
+    "aliases": [
+      "share",
+      "shares",
+      "stocks",
+      "equity"
+    ],
+    "related": [
+      "Dividend",
+      "Capital Gain",
+      "Market Capitalization",
+      "IPO"
+    ],
+    "category": "Investing"
+  },
+
+   {
+    "term": "Savings Account",
+    "definition": "An account at a bank or other financial institution where you can deposit money and earn interest.",
+    "related": [
+      "Bear Market",
+      "Volatility"
+    ],
+    "category": "Markets",
+    "featured": true
+  },
+  {
+    "term": "Volatility",
+    "definition": "The degree of variation in the price of a financial instrument over time. Higher volatility means larger price swings.",
+    "related": [
+      "Risk Tolerance",
+      "Bear Market",
+      "Dollar-Cost Averaging"
+    ],
+    "category": "Markets"
+  },
+  {
+    "term": "Yield",
+    "definition": "The income an investment pays, such as interest or dividends, shown as a percentage of its price or value.",
+    "example": "A share priced at $100 that pays $3 a year in dividends has a 3% dividend yield.",
+    "related": [
+      "Dividend",
+      "Bond",
+      "Interest Rate"
+    ],
+    "category": "Investing"
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "pageTitle": "Markets",
+  "pageIntro": "Financial markets are where money, risk, and information meet. This page explains what they are, what they are made of, who participates, and how everyday investors usually get access through brokers.",
+  "sections": [
+    {
+      "id": "what-is-financial-market",
+      "title": "What is the financial market",
+      "category": "Foundations",
+      "image": "images/markets-what-is.jpg",
+      "imageAlt": "Illustration of a financial market connecting buyers and sellers of assets",
+      "summary": "A financial market is a system where people and institutions buy and sell financial assets — such as stocks, bonds, currencies, and commodities — at prices discovered through supply and demand.",
+      "content": [
+        "In simple terms, a financial market is a meeting place for capital. Savers and investors who have money can fund businesses, governments, and projects that need it. In return they may receive ownership (shares), interest (bonds), or the chance of price gains. The market’s job is to match those two sides efficiently and to reveal prices that reflect available information.",
+        "Markets can be physical trading floors, but today most activity is electronic. What matters is not the building; it is the rules, the infrastructure, and the flow of orders that allow buyers and sellers to transact with confidence. When markets work well, capital moves toward productive uses and investors can adjust their holdings as their goals change.",
+        "Prices in financial markets move when expectations change — about company profits, interest rates, inflation, growth, or risk. That is why headlines about central banks, earnings, or geopolitics often show up quickly in stock and bond prices. Understanding the market as a pricing mechanism helps you interpret those moves without treating every swing as a signal to act.",
+        "You do not need to trade every day to benefit from markets. Long-term investors use them mainly to own diversified assets, reinvest returns, and stay aligned with a plan. The market is the environment; your strategy is how you participate inside it."
+      ],
+      "takeaways": [
+        "Financial markets connect people who have capital with those who need it",
+        "Prices reflect supply, demand, and changing expectations",
+        "Most modern markets are electronic systems governed by rules and regulation"
+      ]
+    },
+    {
+      "id": "components-of-the-market",
+      "title": "Components of the market",
+      "category": "Structure",
+      "image": "images/markets-components.jpg",
+      "imageAlt": "Diagram showing main components of financial markets including equities, bonds, currencies, and commodities",
+      "summary": "Financial markets are not one single place. They are a set of related markets for different asset types, each with its own role, risks, and typical participants.",
+      "content": [
+        "Equity markets are where shares of companies are issued and traded. Owning a share means owning a slice of a business and a claim on its future profits. Equity prices can rise or fall sharply, which is why stocks are usually treated as growth assets with higher volatility than bonds or cash.",
+        "Bond (or fixed-income) markets are where debt is bought and sold. Governments and companies borrow by issuing bonds; investors lend money and receive interest, then repayment of principal at maturity (unless the issuer defaults). Bond prices often move inversely with interest rates and can behave differently from stocks in periods of stress.",
+        "Currency markets (FX) are where one currency is exchanged for another. They support trade, travel, and cross-border investment. FX prices react to interest-rate differences, inflation, growth, and capital flows between countries.",
+        "Commodity markets cover physical or contract-based trading in things like oil, gold, agricultural products, and metals. They matter for inflation, industry costs, and portfolio diversification. Derivatives markets — options, futures, and similar contracts — are built on top of these underlying assets and are used for hedging or speculation. Most long-term individual investors focus first on equities and bonds, then add other components only with a clear purpose."
+      ],
+      "takeaways": [
+        "Equities offer ownership and growth potential with higher volatility",
+        "Bonds represent lending and often react strongly to interest rates",
+        "Currencies, commodities, and derivatives each serve different roles"
+      ]
+    },
+    {
+      "id": "market-players",
+      "title": "Market players",
+      "category": "Participants",
+      "image": "images/markets-players.jpg",
+      "imageAlt": "Overview of market participants including retail investors, institutions, exchanges, and regulators",
+      "summary": "Markets only function because many different players participate — from individual investors to large institutions, exchanges, brokers, and regulators.",
+      "content": [
+        "Retail investors are individuals investing their own money, often through funds, pension accounts, or brokerage accounts. On their own, each person is small, but together retail flows can be significant. Most retail investors are better served by long-term, diversified strategies than by frequent trading.",
+        "Institutional investors — pension funds, insurance companies, mutual funds, hedge funds, sovereign wealth funds — manage large pools of capital. Their mandates, time horizons, and constraints shape a large share of daily trading volume and can influence prices when they rebalance or shift strategy.",
+        "Companies and governments are issuers. Companies raise equity or debt to fund operations and growth; governments issue bonds to finance budgets and projects. Exchanges and trading venues provide the infrastructure, listing rules, and transparency that make organised trading possible.",
+        "Brokers and platforms sit between investors and the market: they accept orders, provide account access, and route trades. Regulators set and enforce rules meant to protect investors, reduce abuse, and keep markets orderly. Understanding who does what makes news about regulation, fund flows, or exchange rules easier to place in context."
+      ],
+      "takeaways": [
+        "Retail and institutional investors both matter, at different scales",
+        "Issuers, exchanges, brokers, and regulators each have distinct roles",
+        "Knowing the players helps you interpret market news more clearly"
+      ]
+    }
+  ],
+  "brokersSection": {
+    "id": "brokers-and-platforms",
+    "title": "Brokers and how people access markets",
+    "summary": "Most individuals do not trade directly on an exchange. They open an account with a broker or investment platform that provides access to stocks, funds, bonds, and sometimes other assets.",
+    "content": [
+      "A broker is an intermediary that executes buy and sell orders on your behalf and holds your account. Platforms differ in fees, available markets, research tools, account types, and regulatory oversight. Before opening an account, it is worth checking who regulates the firm, what protection exists for client assets, and how costs (commissions, spreads, FX fees, inactivity fees) add up.",
+      "Beginners often start with a regulated platform that offers broad access to index funds or ETFs, clear pricing, and straightforward account funding. More active traders may care about order types, speed, and margin tools — which also bring extra risk. Education and a written plan should come before leverage or complex products.",
+      "The links below are provided so you can explore popular broker platforms yourself. Always verify the firm’s regulation and terms on their official site. This page is educational and does not recommend any specific broker or strategy."
+    ],
+    "disclosure": "Some links on this page may be affiliate links. We may earn a commission if you sign up through them, at no extra cost to you. This is not financial advice or a recommendation to open any particular account."
+  },
+  "brokers": [
+    {
+      "name": "Broker one",
+      "blurb": "Placeholder — replace with a short line (e.g. strong for beginners or global markets).",
+      "badge": "Popular",
+      "url": "#"
+    },
+    {
+      "name": "Broker two",
+      "blurb": "Placeholder — replace with positioning and your affiliate URL.",
+      "badge": "Global access",
+      "url": "#"
+    },
+    {
+      "name": "Broker three",
+      "blurb": "Placeholder — replace with positioning and your affiliate URL.",
+      "badge": "Low fees",
+      "url": "#"
+    }
+  ]
+}

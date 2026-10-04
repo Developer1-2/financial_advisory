@@ -1,0 +1,184 @@
+/* ==========================================================
+   STOCK TICKER: sits directly under the hero
+   Load AFTER styles.css. Change the three variables to re-theme.
+   ========================================================== */
+
+.ticker {
+  --ticker-bg: #17112b;
+  --ticker-text: #f4f1fb;
+  --ticker-muted: #a9a2c4;
+  --ticker-up: #3ddc97;
+  --ticker-down: #ff7b7b;
+
+  display: flex;
+  align-items: stretch;
+  height: 46px;
+  background: var(--ticker-bg);
+  color: var(--ticker-text);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.85rem;
+  overflow: hidden;
+}
+
+.ticker[hidden] { display: none; }
+
+/* ---------- Left label ---------- */
+.ticker-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  padding: 0 1rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.ticker-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--ticker-up);
+  box-shadow: 0 0 0 0 rgba(61, 220, 151, 0.6);
+  animation: ticker-pulse 2s infinite;
+}
+
+@keyframes ticker-pulse {
+  70%  { box-shadow: 0 0 0 7px rgba(61, 220, 151, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(61, 220, 151, 0); }
+}
+
+/* ---------- Scrolling area ---------- */
+.ticker-viewport {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 28px, #000 calc(100% - 28px), transparent);
+          mask-image: linear-gradient(90deg, transparent, #000 28px, #000 calc(100% - 28px), transparent);
+}
+
+.ticker-track {
+  display: flex;
+  width: max-content;
+  height: 100%;
+  animation: ticker-scroll var(--ticker-duration, 60s) linear infinite;
+  will-change: transform;
+}
+
+.ticker-viewport:hover .ticker-track,
+.ticker.is-paused .ticker-track {
+  animation-play-state: paused;
+}
+
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); } /* track holds two identical copies */
+}
+
+/* ---------- Items ---------- */
+.ticker-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0 1.4rem;
+  white-space: nowrap;
+  border-right: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.t-symbol { font-weight: 700; letter-spacing: 0.02em; }
+.t-name   { color: var(--ticker-muted); font-size: 0.78rem; }
+.t-price  { font-variant-numeric: tabular-nums; }
+
+.t-change {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.t-change.up   { color: var(--ticker-up); }
+.t-change.down { color: var(--ticker-down); }
+.t-change.flat { color: var(--ticker-muted); }
+
+.t-arrow { font-size: 0.65rem; }
+
+/* ---------- Loading placeholders ---------- */
+.ticker-item.is-loading .sk {
+  display: block;
+  height: 0.7rem;
+  width: 4.5rem;
+  border-radius: 4px;
+  background: linear-gradient(90deg, rgba(255,255,255,.08) 25%, rgba(255,255,255,.18) 50%, rgba(255,255,255,.08) 75%);
+  background-size: 200% 100%;
+  animation: ticker-shimmer 1.4s ease-in-out infinite;
+}
+
+@keyframes ticker-shimmer {
+  from { background-position: 200% 0; }
+  to   { background-position: -200% 0; }
+}
+
+/* ---------- Right side: note + pause button ---------- */
+.ticker-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+  padding: 0 0.9rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.ticker-note {
+  display: none;
+  color: var(--ticker-muted);
+  font-size: 0.7rem;
+}
+
+.ticker-pause {
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  font-size: 0.7rem;
+  color: var(--ticker-text);
+  background: rgba(255, 255, 255, 0.1);
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ticker-pause:hover { background: rgba(255, 255, 255, 0.2); }
+.ticker-pause:focus-visible { outline: 2px solid var(--ticker-up); outline-offset: 2px; }
+
+/* ---------- Responsive ---------- */
+@media (min-width: 900px) {
+  .ticker-note { display: block; }
+}
+
+@media (max-width: 599px) {
+  .ticker { height: 42px; font-size: 0.8rem; }
+  .ticker-label { padding: 0 0.75rem; }
+  .ticker-label-text { display: none; }   /* keep just the pulsing dot on phones */
+  .ticker-item { padding: 0 1rem; gap: 0.45rem; }
+  .t-name { display: none; }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .t-name { display: none; }
+}
+
+/* ---------- Reduced motion: no marquee, swipeable list instead ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track { animation: none; }
+  .ticker-viewport { overflow-x: auto; scrollbar-width: thin; }
+  .ticker-dot, .ticker-item.is-loading .sk { animation: none; }
+  .ticker-pause { display: none; }
+  .ticker-track .ticker-item[aria-hidden="true"] { display: none; } /* drop the duplicate copy */
+}
